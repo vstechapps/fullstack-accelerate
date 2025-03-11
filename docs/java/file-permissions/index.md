@@ -4,6 +4,7 @@
 Java provides methods in the `File` class to check and modify file permissions such as read and write access. These methods help ensure security and control over file access.
 
 ## Common File Permission Methods
+
 | Operation          | Package   | Class  | Method               |
 |--------------------|------------|---------|-----------------------|
 | Check Read Access   | `java.io`   | `File`  | `canRead()`            |
