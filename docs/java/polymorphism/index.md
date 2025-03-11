@@ -94,6 +94,7 @@ public class Main {
 ---
 
 ## **Method Overloading vs Method Overriding**
+
 | Feature | Method Overloading | Method Overriding |
 |---------|-------------------|-------------------|
 | Resolution Time | Compile-time | Runtime |
