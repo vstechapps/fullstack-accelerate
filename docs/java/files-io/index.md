@@ -4,6 +4,7 @@
 File I/O (Input/Output) in Java is essential for reading data from and writing data to files. Java provides various classes in the `java.io` and `java.nio` packages for file handling.
 
 ## Common File I/O Operations
+
 | Operation      | Package   | Class          | Method            |
 |----------------|------------|----------------|--------------------|
 | Create File      | `java.io`   | `File`          | `createNewFile()`   |
@@ -126,6 +127,7 @@ public class FileReadWriteExample {
 ```
 
 ## Key Classes in Java File I/O
+
 | Class            | Description                               |
 |------------------|-------------------------------------------|
 | `File`            | Used to create, delete, and inspect file properties. |
