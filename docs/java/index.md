@@ -24,7 +24,7 @@ Outlines the foundational and advanced topics for mastering **Java Backend Devel
 |----------|------------|------------|------|------|
 | Exception Handling | [Exception Handling](./exception-handling)  <br> [Try-Catch-Finally](./try-catch-finally)  <br> [Exception Hierarchy](./exception-hierarchy) <br> [Checked vs Unchecked](./checked-unchecked)  <br> [Custom Exception](./custom-exceptions) | [Excercise 13](./hands-on/13-exceptions) | [Assessment 4](https://docs.google.com/forms/d/e/1FAIpQLSdSBRhnpNfs3M7LKwjyjaChayWTSid-EZCvrJTmm_U1gir7Lg/viewform?usp=header) |
 |  File Handling | [Files IO](./files-io)  <br> [File Permissions](./file-permissions) <br> [Files NIO](./files-nio)| [Excercise 14](./hands-on/14-files) | [Assessment 5](https://docs.google.com/forms/d/e/1FAIpQLSd2F0MWa1b5QpVzVn2obccR7lFamKw3NB17xZhGau9uJJNJRQ/viewform?usp=header) |
-| Multithreading | [Creating Threads](./threads)  <br> [Thread Lifecycle](./thread-lifecycle)  <br> [Synchronization](./synchronization) | TBD | TBD |
+| Multithreading | [Threads](./threads)  <br> [Thread Lifecycle](./thread-lifecycle)  <br> [Concurrency API](./concurrency-api) | TBD | TBD |
 | Virtual Threads <br> [Java 21] | [Creating Virtual Threads](./creating-threads) | TBD | TBD |
 
 ---
