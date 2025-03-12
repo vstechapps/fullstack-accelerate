@@ -2,14 +2,6 @@
 
 ---
 
-Outlines the foundational and advanced topics for mastering **Java Backend Development**.
-
----
-## Core Java
----
-
-# SQL
-
 ## Table of Contents
 
 1. **Introduction to SQL**
