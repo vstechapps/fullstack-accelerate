@@ -9,9 +9,9 @@
    - [Importance of SQL in Full Stack Development](./sql/intro)
 
 2. **Database Concepts**
-   - Relational Databases
-   - Tables, Rows, and Columns
-   - Primary and Foreign Keys
+   - [Relational Databases](./databases/)
+   - [Tables, Rows, and Columns](./databases/)
+   - [rimary and Foreign Keys](./databases/)
 
 3. **SQL Commands**
    - DDL (Data Definition Language)
