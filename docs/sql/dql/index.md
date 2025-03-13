@@ -12,7 +12,7 @@ Data Query Language (DQL) is an **informal subset** of SQL that focuses on retri
 
 ---
 
-## 1. SELECT Command
+## SELECT
 ### Purpose:
 The `SELECT` command retrieves data from one or more tables.
 
@@ -34,7 +34,7 @@ SELECT FirstName, LastName FROM Employees;
 
 ---
 
-## 2. WHERE Clause
+## WHERE
 ### Purpose:
 The `WHERE` clause is used to filter records based on conditions.
 
@@ -56,7 +56,7 @@ SELECT * FROM Employees WHERE LastName = 'Smith';
 
 ---
 
-## 3. ORDER BY Clause
+## ORDER BY
 ### Purpose:
 The `ORDER BY` clause sorts the query results in ascending or descending order.
 
@@ -78,7 +78,7 @@ SELECT FirstName, LastName, Age FROM Employees ORDER BY Age DESC;
 
 ---
 
-## 4. GROUP BY Clause
+## GROUP BY
 ### Purpose:
 The `GROUP BY` clause groups rows that have the same values in specified columns, often used with aggregate functions.
 
@@ -100,7 +100,7 @@ SELECT Department, SUM(Salary) FROM Employees GROUP BY Department;
 
 ---
 
-## 5. HAVING Clause
+## HAVING
 ### Purpose:
 The `HAVING` clause filters records after they have been grouped.
 
@@ -122,9 +122,9 @@ SELECT Department, SUM(Salary) FROM Employees GROUP BY Department HAVING SUM(Sal
 
 ---
 
-## 6. Miscellaneous: LIKE Operator & Pattern Matching
+## LIKE
 ### Purpose:
-The `LIKE` operator is used in the `WHERE` clause for pattern matching with **text values**. It allows flexible searching using wildcards.
+The `LIKE` operator is used in the `WHERE` clause for **pattern matching** with **text values**. It allows flexible searching using wildcards.
 
 ### Wildcards in `LIKE`
 | Wildcard | Meaning |

@@ -10,7 +10,7 @@ Data Definition Language (DDL) is a subset of SQL used to define and manage data
 
 ---
 
-## 1. CREATE Command
+## CREATE
 ### Purpose:
 The `CREATE` command is used to define new tables, databases, users, and other database objects.
 
@@ -46,7 +46,7 @@ CREATE USER 'newuser'@'localhost' IDENTIFIED BY 'password';
 
 ---
 
-## 2. ALTER Command
+## ALTER
 ### Purpose:
 The `ALTER` command is used to modify the structure of an existing database object.
 
@@ -77,7 +77,7 @@ DROP COLUMN Salary;
 
 ---
 
-## 3. DROP Command
+## DROP
 ### Purpose:
 The `DROP` command is used to delete database objects permanently.
 

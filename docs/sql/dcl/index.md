@@ -9,7 +9,7 @@ Data Control Language (DCL) is a subset of SQL that is used to control access to
 
 ---
 
-## 1. GRANT Command
+## GRANT
 ### Purpose:
 The `GRANT` command is used to give specific privileges to a user in the database.
 
@@ -36,7 +36,7 @@ GRANT ALL PRIVILEGES ON CompanyDB.* TO 'manager'@'localhost';
 
 ---
 
-## 2. REVOKE Command
+## REVOKE
 ### Purpose:
 The `REVOKE` command is used to remove previously granted privileges from a user.
 

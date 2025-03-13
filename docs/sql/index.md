@@ -15,31 +15,32 @@
 
 3. **SQL Commands**
    - **DDL (Data Definition Language)**
-     - [CREATE](./ddl#create)
-     - [ALTER](./ddl#alter)
-     - [DROP](./ddl#drop)
+     - [CREATE](./ddl/#create)
+     - [ALTER](./ddl/#alter)
+     - [DROP](./ddl/#drop)
    
    - **DML (Data Manipulation Language)**
-     - [SELECT](./dml#select)
-     - [INSERT](./dml#insert)
-     - [UPDATE](./dml#update)
-     - [DELETE](./dml#delete)
+     - [SELECT](./dml/#select)
+     - [INSERT](./dml/#insert)
+     - [UPDATE](./dml/#update)
+     - [DELETE](./dml/#delete)
    
    - **DCL (Data Control Language)**
-     - [GRANT](./dcl#grant)
-     - [REVOKE](./dcl#revoke)
+     - [GRANT](./dcl/#grant)
+     - [REVOKE](./dcl/#revoke)
    
    - **TCL (Transaction Control Language)**
-     - [COMMIT](./tcl#commit)
-     - [ROLLBACK](./tcl#rollback)
-     - [SAVEPOINT](./tcl#savepoint)
+     - [COMMIT](./tcl/#commit)
+     - [ROLLBACK](./tcl/#rollback)
+     - [SAVEPOINT](./tcl/#savepoint)
 
 4. **DQL (Data Query Language)**
-   - [SELECT Statement](./query#select)
-   - [WHERE Clause](./query#where)
-   - [ORDER BY](./query#orderby)
-   - [GROUP BY](./query#groupby)
-   - [HAVING](./query#having)
+   - [SELECT](./dql/#select)
+   - [WHERE Clause](./dql/#where)
+   - [ORDER BY](./dql/#order-by)
+   - [GROUP BY](./dql/#group-by)
+   - [HAVING](./dql/#having)
+   - [LIKE](./dql/#like)
 
 5. **Joins**
    - [INNER JOIN](./joins#inner)

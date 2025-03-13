@@ -11,7 +11,7 @@ Data Manipulation Language (DML) is a subset of SQL used to insert, update, dele
 
 ---
 
-## 1. SELECT Command
+## SELECT
 ### Purpose:
 The `SELECT` command is used to retrieve data from one or more tables.
 
@@ -38,7 +38,7 @@ SELECT * FROM Employees WHERE Age > 30;
 
 ---
 
-## 2. INSERT Command
+## INSERT
 ### Purpose:
 The `INSERT` command is used to add new records to a table.
 
@@ -64,7 +64,7 @@ VALUES
 
 ---
 
-## 3. UPDATE Command
+## UPDATE
 ### Purpose:
 The `UPDATE` command modifies existing records in a table.
 
@@ -86,7 +86,7 @@ UPDATE Employees SET Salary = 80000, Age = 36 WHERE EmployeeID = 3;
 
 ---
 
-## 4. DELETE Command
+## DELETE
 ### Purpose:
 The `DELETE` command removes records from a table.
 

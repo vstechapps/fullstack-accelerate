@@ -10,7 +10,7 @@ Transaction Control Language (TCL) is a subset of SQL used to manage transaction
 
 ---
 
-## 1. COMMIT Command
+## COMMIT
 ### Purpose:
 The `COMMIT` command is used to save all changes made during the current transaction permanently in the database.
 
@@ -35,7 +35,7 @@ UPDATE Employees SET Salary = 60000 WHERE EmployeeID = 4;
 COMMIT;
 ```
 
-### Do You Need to Use COMMIT in MySQL?
+### Do You Need to Use COMMIT in SQL?
 #### 1. Autocommit Mode (Default: ON)
 - By default, MySQL runs with **autocommit enabled**, meaning every SQL statement (`INSERT`, `UPDATE`, `DELETE`) is automatically committed unless a transaction is explicitly started.
 - **If autocommit is ON** (default behavior): No need to run `COMMIT`, as MySQL commits automatically.
@@ -56,7 +56,7 @@ This ensures **atomicity** and prevents partial updates.
 
 ---
 
-## 2. ROLLBACK Command
+## ROLLBACK
 ### Purpose:
 The `ROLLBACK` command is used to undo changes made in the current transaction before committing.
 
@@ -83,7 +83,7 @@ ROLLBACK;
 
 ---
 
-## 3. SAVEPOINT Command
+## SAVEPOINT
 ### Purpose:
 The `SAVEPOINT` command is used to set a point within a transaction that can be rolled back to if needed.
 
