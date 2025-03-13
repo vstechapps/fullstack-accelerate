@@ -1,38 +1,64 @@
-# [Home](../) >  SQL
+# [Home](../) > SQL
 
 ---
 
 ## Table of Contents
 
 1. **Introduction to SQL**
-   - [What is SQL?](./sql/intro)
-   - [Importance of SQL in Full Stack Development](./sql/intro)
+   - [What is SQL?](./intro)
+   - [Importance of SQL in Full Stack Development](./intro)
 
 2. **Database Concepts**
    - [Relational Databases](./databases/)
    - [Tables, Rows, and Columns](./databases/)
-   - [rimary and Foreign Keys](./databases/)
+   - [Primary and Foreign Keys](./databases/)
 
 3. **SQL Commands**
-   - DDL (Data Definition Language)
-     - CREATE, ALTER, DROP
-   - DML (Data Manipulation Language)
-     - SELECT, INSERT, UPDATE, DELETE
-   - DCL (Data Control Language)
-     - GRANT, REVOKE
-   - TCL (Transaction Control Language)
-     - COMMIT, ROLLBACK, SAVEPOINT
+   - **DDL (Data Definition Language)**
+     - [CREATE](./ddl#create)
+     - [ALTER](./ddl#alter)
+     - [DROP](./ddl#drop)
+   
+   - **DML (Data Manipulation Language)**
+     - [SELECT](./dml#select)
+     - [INSERT](./dml#insert)
+     - [UPDATE](./dml#update)
+     - [DELETE](./dml#delete)
+   
+   - **DCL (Data Control Language)**
+     - [GRANT](./dcl#grant)
+     - [REVOKE](./dcl#revoke)
+   
+   - **TCL (Transaction Control Language)**
+     - [COMMIT](./tcl#commit)
+     - [ROLLBACK](./tcl#rollback)
+     - [SAVEPOINT](./tcl#savepoint)
 
-4. **Querying Data**
-   - SELECT Statement
-   - WHERE Clause
-   - ORDER BY, GROUP BY, HAVING
+4. **DQL (Data Query Language)**
+   - [SELECT Statement](./query#select)
+   - [WHERE Clause](./query#where)
+   - [ORDER BY](./query#orderby)
+   - [GROUP BY](./query#groupby)
+   - [HAVING](./query#having)
 
-5. **Joins and Relationships**
-   - TBD
+5. **Joins**
+   - [INNER JOIN](./joins#inner)
+   - [LEFT JOIN](./joins#left)
+   - [RIGHT JOIN](./joins#right)
+   - [FULL JOIN](./joins#full)
+   - [CROSS JOIN](./joins#cross)
+   - [Self Join](./joins#self)
 
+6. **Indexes and Optimization**
+   - [Indexes in SQL](./indexes/)
+   - [Query Optimization](./indexes/)
 
-This guide provides an overview of essential SQL topics for full-stack developers.
+7. **Advanced SQL Concepts**
+   - [Stored Procedures](./advanced#storedprocedures)
+   - [Functions](./advanced#functions)
+   - [Triggers](./advanced#triggers)
 
 ---
+
+This guide provides an overview of essential SQL topics for full-stack developers.
 
