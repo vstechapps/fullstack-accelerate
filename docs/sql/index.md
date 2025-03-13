@@ -42,7 +42,11 @@
    - [HAVING](./dql/#having)
    - [LIKE](./dql/#like)
 
-5. **Joins**
+5. **Aggregations & Subqueries**
+   - [Aggregate Functions](./aggregations)
+   - [Subqueries](./subqueries)
+
+6. **Joins**
    - [INNER JOIN](./joins#inner)
    - [LEFT JOIN](./joins#left)
    - [RIGHT JOIN](./joins#right)
@@ -50,11 +54,11 @@
    - [CROSS JOIN](./joins#cross)
    - [Self Join](./joins#self)
 
-6. **Indexes and Optimization**
+7. **Indexes and Optimization**
    - [Indexes in SQL](./indexes/)
    - [Query Optimization](./indexes/)
 
-7. **Advanced SQL Concepts**
+8. **Advanced SQL Concepts**
    - [Stored Procedures](./advanced#storedprocedures)
    - [Functions](./advanced#functions)
    - [Triggers](./advanced#triggers)
