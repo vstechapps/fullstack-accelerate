@@ -14,7 +14,7 @@ A **JOIN** in SQL is used to combine rows from two or more tables based on a rel
 6. **SELF JOIN** – Joins a table to itself.
 
 <details>
-<summary><strong>Setup Data for Joins Demo</strong> (Click to expand)</summary>
+<summary><strong>Setup Demo Data </strong> (Click to expand)</summary>
 <code>
 <pre>
 CREATE TABLE Employees (
@@ -44,6 +44,7 @@ INSERT INTO Departments (DepartmentID, DepartmentName) VALUES
 (103, 'Finance'),
 (105, 'Marketing');
 <pre>
+</code>
 </details>
 
 ---
