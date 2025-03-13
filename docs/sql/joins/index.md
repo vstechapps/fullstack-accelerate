@@ -14,6 +14,7 @@ A **JOIN** in SQL is used to combine rows from two or more tables based on a rel
 6. **SELF JOIN** – Joins a table to itself.
 
 <details>
+
 <summary><strong>Setup Demo Data </strong> (Click to expand)</summary>
 <code>
 <pre>
@@ -43,7 +44,7 @@ INSERT INTO Departments (DepartmentID, DepartmentName) VALUES
 (102, 'IT'),
 (103, 'Finance'),
 (105, 'Marketing');
-<pre>
+</pre>
 </code>
 </details>
 
@@ -266,6 +267,65 @@ JOIN Employees B ON A.ManagerID = B.EmployeeID;
 | Bob      | Charlie |
 
 ---
+
+## INNER JOIN with Multiple Tables
+
+An **INNER JOIN** can be used to combine data from multiple tables by matching related columns. This allows retrieving meaningful information spread across multiple tables.
+
+### Example Scenario: Orders in an E-Commerce System
+We have three tables:
+1. **Customers** - Stores customer details.
+2. **Orders** - Stores order details.
+3. **Products** - Stores product details.
+
+### Customers Table:
+
+| CustomerID | Name    | City     |
+|------------|--------|----------|
+| 1          | Alice  | New York |
+| 2          | Bob    | London   |
+| 3          | Charlie| Sydney   |
+
+### Orders Table:
+
+| OrderID | CustomerID | ProductID | OrderDate  |
+|---------|-----------|-----------|------------|
+| 101     | 1         | 1001      | 2024-03-01 |
+| 102     | 2         | 1002      | 2024-03-05 |
+| 103     | 3         | 1003      | 2024-03-08 |
+
+### Products Table:
+
+| ProductID | ProductName  | Price  |
+|-----------|-------------|--------|
+| 1001      | Laptop      | 1200   |
+| 1002      | Phone       | 800    |
+| 1003      | Tablet      | 600    |
+
+## SQL Query: INNER JOIN with Multiple Tables
+To fetch order details along with customer and product information, we use **INNER JOIN** on multiple tables:
+
+```sql
+SELECT Customers.Name AS CustomerName, Products.ProductName, Orders.OrderDate, Products.Price
+FROM Orders
+INNER JOIN Customers ON Orders.CustomerID = Customers.CustomerID
+INNER JOIN Products ON Orders.ProductID = Products.ProductID;
+```
+
+### Output:
+
+| CustomerName | ProductName | OrderDate  | Price |
+|-------------|-------------|------------|-------|
+| Alice       | Laptop      | 2024-03-01 | 1200  |
+| Bob         | Phone       | 2024-03-05 | 800   |
+| Charlie     | Tablet      | 2024-03-08 | 600   |
+
+## Explanation:
+- The **Orders** table links **Customers** and **Products**.
+- `INNER JOIN Customers` ensures only orders with valid customers are included.
+- `INNER JOIN Products` ensures only orders with valid products are included.
+- The result shows **who ordered what product and when**.
+
 
 ## Summary of Joins
 
