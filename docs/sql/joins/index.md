@@ -58,8 +58,6 @@ Retrieves records that have matching values in both tables.
 
 **Note:** `INNER JOIN` is the same as using just `JOIN`. If you write `JOIN` without specifying the type, SQL assumes it as `INNER JOIN` by default.
 
-### Example Tables:
-
 #### Employees Table:
 
 | EmployeeID | Name    | DepartmentID |
