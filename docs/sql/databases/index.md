@@ -28,6 +28,7 @@ NoSQL ("Not Only SQL") databases are designed for handling large volumes of unst
 6. **Stored Procedures & Functions** - Predefined SQL scripts that execute complex logic within the database.
 
 ## Database Management System (DBMS) vs. Relational Database Management System (RDBMS)
+
 | Feature | DBMS | RDBMS |
 |---------|------|-------|
 | Data Storage | Unstructured/Semi-Structured | Structured (Tables) |
@@ -52,6 +53,7 @@ A transaction is a sequence of database operations performed as a single unit of
 - **Durability** - Ensures committed transactions persist even after a failure.
 
 ## SQL vs. NoSQL Databases
+
 | Feature | SQL (Relational) | NoSQL (Non-Relational) |
 |---------|----------------|------------------|
 | Data Storage | Tables with fixed schema | Collections, key-value, documents |
