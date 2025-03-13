@@ -14,36 +14,36 @@ A **JOIN** in SQL is used to combine rows from two or more tables based on a rel
 6. **SELF JOIN** – Joins a table to itself.
 
 <details>
-
-```sql
-
+<summary><strong>Setup Data for Joins Demo</strong> (Click to expand)</summary>
+<code>
+<pre>
 CREATE TABLE Employees (
     EmployeeID INT PRIMARY KEY,
     Name VARCHAR(50),
     DepartmentID INT
 );
-
+</pre>
+<pre>
 CREATE TABLE Departments (
     DepartmentID INT PRIMARY KEY,
     DepartmentName VARCHAR(50)
 );
-
-
+</pre>
+<pre>
 INSERT INTO Employees (EmployeeID, Name, DepartmentID) VALUES
 (1, 'Alice', 101),
 (2, 'Bob', 102),
 (3, 'Charlie', 103),
 (4, 'David', 104),
 (5, 'Eric', 103);
-
+</pre>
+<pre>
 INSERT INTO Departments (DepartmentID, DepartmentName) VALUES
 (101, 'HR'),
 (102, 'IT'),
 (103, 'Finance'),
 (105, 'Marketing');
-
-```
-
+<pre>
 </details>
 
 ---
