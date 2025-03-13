@@ -13,9 +13,10 @@ A **JOIN** in SQL is used to combine rows from two or more tables based on a rel
 5. **CROSS JOIN** – Returns the Cartesian product of both tables.
 6. **SELF JOIN** – Joins a table to itself.
 
-Setup Demonstration Data
 <details>
-<code>
+
+```sql
+
 CREATE TABLE Employees (
     EmployeeID INT PRIMARY KEY,
     Name VARCHAR(50),
@@ -41,7 +42,8 @@ INSERT INTO Departments (DepartmentID, DepartmentName) VALUES
 (103, 'Finance'),
 (105, 'Marketing');
 
-</code>
+```
+
 </details>
 
 ---
