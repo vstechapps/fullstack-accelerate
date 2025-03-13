@@ -70,4 +70,6 @@ REVOKE ALL PRIVILEGES ON CompanyDB.* FROM 'manager'@'localhost';
 | `GRANT` | Provides specific privileges to users. |
 | `REVOKE` | Removes privileges from users. |
 
+---
 
+<b>Next Topic:</b> [Transaction Control Language (TCL) →](../tcl/)

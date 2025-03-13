@@ -118,3 +118,5 @@ DELETE FROM Employees;
 | `DELETE` | Removes records from a table. |
 
 ---
+
+<b>Next Topic:</b> [Data Control Language (DCL) →](../dcl/)

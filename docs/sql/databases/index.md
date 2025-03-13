@@ -105,3 +105,5 @@ An **Employees Table** for a company:
 | **Tables, Rows, and Columns** | Tables store data, columns define attributes, rows store records. |
 
 ---
+
+<b>Next Topic:</b> [Data Definition Language (DDL) →](../ddl/)

@@ -1,4 +1,4 @@
-# [SQL](../) > Subqueries
+# [SQL](../) > Sub Query
 
 ## Introduction
 A **subquery** is a query inside another SQL query. It helps retrieve specific data that meets a condition in the main query.
@@ -67,3 +67,5 @@ WHERE Salary > (SELECT AVG(Salary) FROM Employees);
 | **Comparison Subquery** | Find employees earning above average. |
 
 ---
+
+<b>Next Topic:</b> [Indexes →](../indexes/)

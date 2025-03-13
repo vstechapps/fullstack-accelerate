@@ -336,3 +336,6 @@ INNER JOIN Products ON Orders.ProductID = Products.ProductID;
 | **CROSS JOIN** | Returns all possible combinations (Cartesian product).                                 |
 | **SELF JOIN**  | Joins a table with itself.                                                             |
 
+---
+
+<b>Next Topic:</b> [Sub Query →](../subquery/)

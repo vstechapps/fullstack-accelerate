@@ -112,4 +112,7 @@ DROP USER 'newuser'@'localhost';
 | `ALTER` | Modifies an existing database object. |
 | `DROP` | Deletes a database object permanently. |
 
+---
+
+<b>Next Topic:</b> [Data Manipulation Language (DML) →](../dml/)
 

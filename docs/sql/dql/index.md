@@ -192,4 +192,4 @@ These details help in better understanding how different SQL databases handle ca
 
 ---
 
-
+<b>Next Topic:</b> [Aggregation Functions →](../aggregations/)

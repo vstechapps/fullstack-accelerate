@@ -104,3 +104,5 @@ SELECT MAX(Price) FROM Products;
 
 ---
 
+<b>Next Topic:</b> [Sub Query →](../subquery/)
+
