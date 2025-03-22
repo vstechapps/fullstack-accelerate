@@ -1,4 +1,4 @@
-# [Fullstack Tools](../) > Git Installation Guide
+# c > Git Installation Guide
 
 ## Introduction
 Git is a distributed version control system widely used for source code management.
@@ -53,14 +53,13 @@ git config --global user.name "Your Name"
 git config --global user.email "your.email@example.com"
 ```
 
-## Git GUI Overview
-Below is a screenshot of the Git GUI interface:
+## Git GUI
 
 ![Git GUI](https://git-scm.com/images/about/index-pic.jpg)
 
 *Figure: Git GUI Interface*
 
-In the Git GUI, you can:
+Using Git GUI, we can:
 - Clone repositories.
 - Commit and push changes.
 - View commit history.
