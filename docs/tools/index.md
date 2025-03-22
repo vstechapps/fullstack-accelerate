@@ -14,9 +14,9 @@ Each link leads to a detailed installation guide for the respective software.
 | Install MySQL Workbench | [MySQL Workbench](./mysql-workbench) | Database |
 | Install Compass | [Compass](./compass) | Database |
 | Install Notepad++ | [Notepad++](./notepadpp) | General |
-| Install VS Code | [VS Code](./vscode) | General |
-| Install IntelliJ | [IntelliJ](./intellij) | General |
+| Install VS Code | [VS Code](./vscode) | IDE |
+| Install IntelliJ | [IntelliJ](./intellij) | IDE |
 | Install Git     | [Git](./git) | Version Control |
 | Install Postman | [Postman](./postman) | API Testing |
-
-
+| Install Maven   | [Maven](./maven) | Build Tools |
+| Install Gradle  | [Gradle](./gradle) | Build Tools |
