@@ -53,16 +53,24 @@ git config --global user.name "Your Name"
 git config --global user.email "your.email@example.com"
 ```
 
-## Git GUI
+## Github Desktop
 
-![Git GUI](https://git-scm.com/images/about/index-pic.jpg)
+![Github Desktop](https://git-scm.com/images/guis/github-desktop@2x.png)
 
 *Figure: Git GUI Interface*
 
-Using Git GUI, we can:
+### Usage of Git
+
 - Clone repositories.
 - Commit and push changes.
 - View commit history.
 - Manage branches and merges.
 
-For more detailed information on using Git and its GUI tools, refer to the official [Git Documentation](https://git-scm.com/doc).
+---
+
+[← Fullstack Tools ](../)
+
+---
+
+## References
+[Git Documentation](https://git-scm.com/doc)

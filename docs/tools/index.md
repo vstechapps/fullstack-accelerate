@@ -4,19 +4,18 @@ Below is the list of essential tools / software used for full-stack development.
 
 Each link leads to a detailed installation guide for the respective software.
 
-| Software         | Installation Guide | Category |
-|-----------------|-------------------|----------|
-| Install Java    | [Java](./java) | Backend |
-| Install Node JS | [Node JS](./nodejs) | Backend |
-| Install Angular | [Angular](./angular) | Frontend |
-| Install MongoDB | [MongoDB](./mongodb) | Database |
-| Install MySQL Server | [MySQL Server](./mysql-server) | Database |
-| Install MySQL Workbench | [MySQL Workbench](./mysql-workbench) | Database |
-| Install Compass | [Compass](./compass) | Database |
-| Install Notepad++ | [Notepad++](./notepadpp) | General |
-| Install VS Code | [VS Code](./vscode) | IDE |
-| Install IntelliJ | [IntelliJ](./intellij) | IDE |
-| Install Git     | [Git](./git) | Version Control |
-| Install Postman | [Postman](./postman) | API Testing |
-| Install Maven   | [Maven](./maven) | Build Tools |
-| Install Gradle  | [Gradle](./gradle) | Build Tools |
+| Software         | Installation Guide | Category | Official Website |
+|-----------------|-------------------|----------|------------------|
+| Java    | [Install Java](./java) | Backend | [oracle.com/java](https://www.oracle.com/java/) |
+| Node JS | [Install Node JS](./nodejs) | Backend | [nodejs.org](https://nodejs.org/) |
+| Angular | [Install Angular](./angular) | Frontend | [angular.io](https://angular.io/) |
+| MongoDB | [Install MongoDB](./mongodb) | Database | [mongodb.com](https://www.mongodb.com/) |
+| MySQL   | [Install MySQL](./mysql) | Database | [mysql.com](https://www.mysql.com/) |
+| Compass | [Install Compass](./compass) | Database | [mongodb.com/compass](https://www.mongodb.com/products/compass) |
+| Notepad++ | [Install Notepad++](./notepadpp) | General | [notepad-plus-plus.org](https://notepad-plus-plus.org/) |
+| VS Code | [Install VS Code](./vscode) | IDE | [code.visualstudio.com](https://code.visualstudio.com/) |
+| IntelliJ | [Install IntelliJ](./intellij) | IDE | [jetbrains.com/idea](https://www.jetbrains.com/idea/) |
+| Git     | [Install Git](./git) | Version Control | [git-scm.com](https://git-scm.com/) |
+| Postman | [Install Postman](./postman) | API Testing | [postman.com](https://www.postman.com/) |
+| Maven   | [Install Maven](./maven) | Build Tools | [maven.apache.org](https://maven.apache.org/) |
+| Gradle  | [Install Gradle](./gradle) | Build Tools | [gradle.org](https://gradle.org/) |

@@ -66,3 +66,12 @@ Angular CLI (Command Line Interface) is used to create and manage Angular projec
 
 ## Conclusion
 You have successfully installed Angular and created your first component! You can now start building powerful web applications with Angular.
+
+---
+
+[← Fullstack Tools ](../)
+
+---
+
+## References
+[angular.io](https://angular.io/)

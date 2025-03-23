@@ -1,4 +1,4 @@
-# Java Installation Guide
+# [Fullstack Tools](../) > Java Installation Guide
 
 ## Introduction
 Java is a powerful, object-oriented programming language used for building cross-platform applications, including web, desktop, and mobile applications. This guide will help you install Java on your system.
@@ -89,3 +89,9 @@ java -version
 
 ## Conclusion
 You have successfully installed Java on your system! You can now start developing Java applications using an IDE like IntelliJ IDEA or Eclipse.
+
+---
+
+[← Fullstack Tools ](../)
+
+---

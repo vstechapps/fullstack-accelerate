@@ -44,15 +44,22 @@ For detailed installation instructions, refer to the [official IntelliJ IDEA ins
 
 ## IntelliJ IDEA 
 
-![IntelliJ IDEA GUI](https://resources.jetbrains.com/storage/products/intellij-idea/img/screenshots/intellij-hero@2x.png)
+![IntelliJ IDEA GUI](https://www.jetbrains.com/idea/img/overview-heading-screenshot.png)
 
 *Figure: IntelliJ IDEA Interface*
 
-Using IntelliJ IDEA, we can:
+### Usage of IntelliJ IDEA
+
 - Create and manage Java projects.
 - Use powerful refactoring and debugging tools.
 - Integrate with version control systems like Git.
 - Enhance productivity with intelligent code suggestions.
 
-For more information, visit the official [IntelliJ IDEA Documentation](https://www.jetbrains.com/help/idea/).
-.
+---
+
+[← Fullstack Tools ](../)
+
+---
+
+## References
+[IntelliJ IDEA Documentation](https://www.jetbrains.com/help/idea/)
