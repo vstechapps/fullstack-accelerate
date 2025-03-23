@@ -1,6 +1,6 @@
-# [Fullstack Tools](../) > Angular Installation Guide
+# [Fullstack Tools](../) > Angular Installation
 
-## Introduction
+## Angular
 Angular is a popular framework for building web applications using TypeScript. This guide will help you install Angular and set up a new project.
 
 ## Step 1: Install Node.js

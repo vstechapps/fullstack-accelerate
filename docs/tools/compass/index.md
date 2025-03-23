@@ -1,4 +1,4 @@
-# [Fullstack Tools](../) > MongoDB Compass Installation Guide
+# [Fullstack Tools](../) > MongoDB Compass
 
 ## MongoDB Compass
 MongoDB Compass is a GUI tool for MongoDB that provides visualization and database management.

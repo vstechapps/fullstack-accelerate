@@ -1,6 +1,6 @@
-# MongoDB Installation Guide
+# [Fullstack Tools](../) > MongoDB Installation
 
-## Introduction
+## MongoDB
 MongoDB is a popular NoSQL database designed for scalability and flexibility. This guide will help you install MongoDB on your system and set up a basic database.
 
 ## Step 1: Download MongoDB

@@ -1,18 +1,18 @@
-# MySQL Server Installation Guide
+# [Fullstack Tools](../) > MySQL Installation
 
-## Introduction
+## MySQL
 MySQL is a widely used relational database management system (RDBMS) that helps store and manage structured data efficiently. This guide will help you install MySQL Server on your system and set up a basic database.
 
-## Step 1: Download MySQL Server
+## Step 1: Download MySQL Installer
 1. Visit the official [MySQL Downloads page](https://dev.mysql.com/downloads/installer/).
-2. Select **MySQL Community Server** and choose the installer that matches your operating system (Windows, macOS, or Linux).
+2. Select **MySQL Community Version** and choose the installer that matches your operating system (Windows, macOS, or Linux).
 3. Download and run the installer.
 
 ## Step 2: Install MySQL Server
 ### On Windows:
 1. Run the downloaded `.msi` file.
 2. Choose the **Custom** installation type.
-3. Select **MySQL Server** and other required components (Workbench, Shell, Router, etc.).
+3. Select **MySQL Server**, **Workbench**, **Shell**.
 4. Set up the root password and configure authentication settings.
 5. Complete the installation and start the MySQL service.
 6. Verify installation by opening Command Prompt and running:
@@ -53,7 +53,7 @@ MySQL is a widely used relational database management system (RDBMS) that helps 
    sudo systemctl status mysql
    ```
 
-## Step 3: Configure MySQL Server
+## Step 3: Configure MySQL Server (Only for Linux)
 1. Open the MySQL configuration file:
    ```sh
    sudo nano /etc/mysql/my.cnf
@@ -111,4 +111,13 @@ MySQL is a widely used relational database management system (RDBMS) that helps 
    ```
 
 ## Conclusion
-You have successfully installed MySQL Server, created a database, and executed basic queries. You can now start developing applications using MySQL!
+You have successfully installed MySQL Server, Workbench, created a database, and executed basic queries. You can now start developing applications using MySQL!
+
+---
+
+[← Fullstack Tools ](../)
+
+---
+
+## References
+[MySQL Workbench Documentation](https://dev.mysql.com/doc/workbench/en/)

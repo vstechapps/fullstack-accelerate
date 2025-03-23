@@ -1,6 +1,6 @@
-# c > Git Installation Guide
+# [Fullstack Tools](../) > > Git Installation Guide
 
-## Introduction
+## GIT
 Git is a distributed version control system widely used for source code management.
 It allows multiple developers to work on a project simultaneously without overwriting each other's changes.
 This guide will help you install Git on your system and introduce you to a graphical user interface (GUI) for easier management.

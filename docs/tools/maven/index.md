@@ -1,6 +1,6 @@
-# [Fullstack Tools](../) > Maven Installation Guide
+# [Fullstack Tools](../) > Maven
 
-## Introduction
+## Apache Maven
 Apache Maven is a powerful build automation tool used primarily for Java projects. It helps manage dependencies, build processes, and project structures efficiently. This guide will help you install Maven on your system.
 
 ## Step 1: Download Maven
