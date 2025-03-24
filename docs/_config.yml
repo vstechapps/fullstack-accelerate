@@ -3,5 +3,8 @@ title: "Fullstack Accelerator"
 description: "Comprehensive Guide to Fullstack Development using Java, Spring Boot and Angular"
 show_github_link: false
 github.is_project_page: false
+markdown: kramdown
+kramdown:
+  parse_block_html: true
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
