@@ -36,16 +36,5 @@ The Simple Quiz is a console-based application that reads quiz questions from a 
   - Minimal memory usage.
 
 ## 4. Flowchart
-```mermaid
-graph TD;
-  Start --> |Load CSV file| LoadCSV;
-  LoadCSV --> |Parse questions| ParseQuestions;
-  ParseQuestions --> |Display question & options| DisplayQuestion;
-  DisplayQuestion --> |User selects answer| GetUserAnswer;
-  GetUserAnswer --> |Check correctness| CheckAnswer;
-  CheckAnswer -->|Correct| Correct[Increase Score] --> NextQuestion;
-  CheckAnswer -->|Incorrect| Incorrect[No Change] --> NextQuestion;
-  NextQuestion -->|More Questions?| MoreQuestions;
-  MoreQuestions -->|Yes| DisplayQuestion;
-  MoreQuestions -->|No| ShowScore[Display Final Score] --> End;
-```
+
+[image](!./image.png)
