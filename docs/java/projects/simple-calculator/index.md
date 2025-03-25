@@ -32,12 +32,11 @@ The Simple Calculator is a console-based application that performs basic arithme
   - Execute calculations instantly.
   - Minimal memory usage.
 
-## 4. Integrating Mermaid with GitHub Pages
-To enable Mermaid diagrams on GitHub Pages, add the following script to your Markdown file or include it in your repository:
 
+## 4. Flowchart
 
-## 5. Flowchart
 ```mermaid
+
 graph TD;
   Start --> |User inputs first number| Input1;
   Input1 --> |User inputs operator (+, -, *, /, %)| Operator;
@@ -60,4 +59,5 @@ graph TD;
   AskContinue -->|No| End;
   
   Restart --> Start;
+  
 ```
