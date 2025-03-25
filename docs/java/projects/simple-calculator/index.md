@@ -1,4 +1,4 @@
-# Simple Calculator - Requirements Document
+# Simple Calculator - App Requirements
 
 ## 1. Introduction
 The Simple Calculator is a console-based application that performs basic arithmetic operations. Users can enter numbers and an operator to calculate the result.

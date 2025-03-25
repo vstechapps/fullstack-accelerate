@@ -1,4 +1,4 @@
-# File Manager - Requirements Document
+# File Manager - App Requirements
 
 ## 1. Introduction
 The File Manager is a console-based application that allows users to manage files and directories. Users can perform operations such as creating, deleting, renaming, and listing files and folders.
