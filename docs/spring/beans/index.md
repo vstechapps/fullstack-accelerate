@@ -1,52 +1,105 @@
-# [Home](../) > Spring Framework
+# [Spring](../) > Introduction
+
+## What is Spring?
+Spring is a powerful, lightweight framework for building Java-based enterprise applications. It provides comprehensive infrastructure support, helping developers create scalable, maintainable, and secure applications.
+
+## Why Learn Spring?
+- **Lightweight** – Minimal overhead with a modular architecture.
+- **Flexible** – Supports multiple configurations (XML, Java-based, and annotations).
+- **Enterprise-Ready** – Used for web applications, microservices, and cloud-native apps.
+- **Dependency Injection (DI)** – Manages object dependencies efficiently.
+- **Aspect-Oriented Programming (AOP)** – Enables separation of cross-cutting concerns.
+
+## How Spring Works
+Spring provides a **container-based approach** where dependencies are managed automatically.
+
+1. **Define Beans** – Components are defined as Spring-managed beans.
+2. **Configure Dependencies** – Using XML, annotations, or Java-based configuration.
+3. **Inject Dependencies** – Spring injects required dependencies automatically.
+4. **Run Application** – Spring Boot makes it easy to run applications with minimal setup.
+
+## Basic Structure of a Spring Boot Application
+Spring Boot simplifies Spring development with a minimal setup. Here’s a simple example:
+
+```java
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class SpringDemoApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(SpringDemoApplication.class, args);
+    }
+}
+```
+
+### Explanation:
+- `@SpringBootApplication` – Marks this class as a Spring Boot application.
+- `SpringApplication.run(...)` – Boots up the Spring application.
+
+## Key Features of Spring
+Spring offers several powerful features:
+1. **Inversion of Control (IoC)** – Manages object creation and dependency injection.
+2. **Spring MVC** – Framework for building web applications.
+3. **Spring Boot** – Simplifies Spring application development.
+4. **Spring Data** – Simplifies database access.
+5. **Spring Security** – Provides authentication and authorization.
+6. **Spring Cloud** – Helps in building cloud-native applications.
+
+## Spring Core Concepts
+Spring is built on several core concepts:
+1. **Dependency Injection (DI)** – Helps manage object dependencies efficiently.
+2. **Bean Lifecycle** – Defines how beans are created, initialized, and destroyed.
+3. **ApplicationContext** – Central container that manages beans.
+4. **Transaction Management** – Handles database transactions seamlessly.
+
+## Example of Dependency Injection
+```java
+import org.springframework.stereotype.Component;
+import org.springframework.beans.factory.annotation.Autowired;
+
+@Component
+class Engine {
+    public void start() {
+        System.out.println("Engine started!");
+    }
+}
+
+@Component
+class Car {
+    private final Engine engine;
+    
+    @Autowired
+    public Car(Engine engine) {
+        this.engine = engine;
+    }
+    
+    public void drive() {
+        engine.start();
+        System.out.println("Car is moving...");
+    }
+}
+```
+
+### Explanation:
+- `@Component` – Marks the class as a Spring-managed bean.
+- `@Autowired` – Injects dependencies automatically.
+
+Spring simplifies Java development by providing a comprehensive and modular framework. Learning the fundamentals of Spring will help you build scalable, enterprise-level applications efficiently.
 
 ---
 
-Outlines the foundational and advanced topics for mastering **Spring Framework**.
+[← Spring](../) | [Spring Architecture →](../architecture)
 
 ---
-## Introduction
----
 
-| Module | Topics | Hands-On | Assessments |
-|----------|------------|------------|------|
-| Overview of Spring | [Introduction to Spring](./introduction) <br> [Spring Architecture](./architecture) <br> [Spring Modules](./modules) | [Setup Spring Project](./setup) | |
-| Spring Core | [Spring Beans](./spring-beans) <br> [Bean Lifecycle](./bean-lifecycle) <br> [Dependency Injection](./dependency-injection) <br> [Application Context](./application-context) | [Spring Project](./hands-on/spring-app) | |
-
----
-## Spring Boot
----
-
-| Module | Topics | Hands-On | Assessments |
-|----------|------------|------------|------|
-| Getting Started | [Spring Boot Basics](./basics) <br> [Spring Initializr](./initializr) <br> [Configuration & Properties](./configuration) | [Spring Boot App](./hands-on/spring-boot-app) | |
-| Spring Boot Features | [Auto Configuration](./auto-configuration) <br> [Spring DevTools](./devtools) <br> [Actuators](./actuators) | [Monitor with Actuator](./hands-on/actuator) | |
-
----
-## Spring Web
----
-
-| Module | Topics | Hands-On | Assessments |
-|----------|------------|------------|------|
-| Spring MVC | [MVC Architecture](./mvc-architecture) <br> [Controllers & Views](./controllers-views) <br> [Request Handling](./request-handling) | [Build a REST API](./hands-on/rest-api) | |
-| RESTful Services | [RESTful Concepts](./restful-concepts) <br> [Spring WebClient](./webclient) <br> [Exception Handling](./exception-handling) | [Consume API using WebClient](./hands-on/webclient) | |
-
----
-## Spring Data
----
-
-| Module | Topics | Hands-On | Assessments |
-|----------|------------|------------|------|
-| Spring Data JPA | [JPA Basics](./jpa-basics) <br> [Repositories](./repositories) <br> [Entity Mapping](./entity-mapping) | [CRUD Operations with JPA](./hands-on/jpa-crud) | |
-| Advanced Data Features | [Transaction Management](./transaction-management) <br> [Native Queries](./native-queries) | [Implement Native Queries](./hands-on/native-queries) | |
-
----
-## Spring Security
----
-
-| Module | Topics | Hands-On | Assessments |
-|----------|------------|------------|------|
-| Authentication & Authorization | [Custom UserDetailsService](./custom-userdetails) <br> [Security Basics](./security-basics) <br> [OAuth2 & JWT](./oauth2-jwt) | [Secure API with JWT](./hands-on/jwt-auth) | |
-| Advanced Security | [Spring Security Filters](./security-filters) <br> [Method-Level Security](./method-level-security) <br> [Security Configurations](./security-configurations) | [Custom Security Implementation](./hands-on/custom-security) | |
+🔗 **Related Topics:**
+- [Introduction](../introduction/)
+- [Spring Core](../architecture)
+- [Spring Boot](../boot/)
+- [Spring MVC](../mvc/)
+- [Spring Security](../security/)
+- [Spring Data](../data/)
+- [Spring Cloud](../cloud/)
 
 ---
