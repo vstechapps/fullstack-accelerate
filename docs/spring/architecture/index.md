@@ -1,28 +1,81 @@
 # [Spring](../) > Architecture
 
-## Overview of Spring Architecture
+## Overview
 Spring follows a layered architecture, making it flexible and modular. It provides different modules for various functionalities, such as dependency injection, web applications, security, and data access.
 
-## Key Layers of Spring Architecture
+## Key Layers
 Spring is structured into multiple layers:
 
 | Layer | Description |
 |--------|-------------|
-| **Spring Core Container** | Manages dependency injection and bean lifecycle. |
+| **Spring Core** | Manages dependency injection and bean lifecycle. |
 | **Spring Web** | Facilitates web applications and REST APIs. |
 | **Spring Data** | Supports database operations and ORM. |
 | **Spring Messaging** | Provides integration with messaging systems like JMS and Kafka. |
 | **Spring Security** | Provides authentication and authorization. |
 | **Spring AOP (Aspect-Oriented Programming)** | Handles cross-cutting concerns like logging and security. |
 
-## 1. Spring Core Container
+## Spring Core 
 
-![Spring Core Architecture](./spring-core.webp)
+Spring Core is the heart of the Spring Framework. It provides key functionalities such as bean management and dependency injection.
 
-This is the foundation of Spring and includes:
-- **BeanFactory** – Manages the lifecycle of beans.
-- **ApplicationContext** – An advanced version of BeanFactory, providing additional features like event propagation and internationalization.
-- **Spring Expression Language (SpEL)** – Allows querying and manipulating objects at runtime.
+![Spring Core Architecture](./spring-core.png)
+
+### 1. BeanFactory
+- The simplest Spring container that creates and manages beans.
+- Uses an XML configuration or Java-based configuration to define beans.
+
+### 2. ApplicationContext
+- An enhanced version of BeanFactory with additional features.
+- Supports event handling, internationalization, and AOP.
+- Common implementations:
+  - `ClassPathXmlApplicationContext`
+  - `AnnotationConfigApplicationContext`
+
+## 3. Spring Beans
+- The objects that Spring manages in its container.
+- Defined using `@Component` and `@Bean` annotations.
+- Example:
+  ```java
+  @Component
+  public class MyBean {
+      public void show() {
+          System.out.println("Hello, Spring Bean!");
+      }
+  }
+  ```
+
+## 4. Dependency Injection (DI)
+- A way for Spring to provide required dependencies automatically.
+- Types:
+  - **Constructor Injection**
+  - **Field Injection** (`@Autowired` annotation)
+
+## 5. Spring Expression Language (SpEL)
+- Used to retrieve values dynamically within Spring.
+- Example:
+  ```java
+  @Value("#{systemProperties['user.name']}")
+  private String userName;
+  ```
+
+## 6. Event Handling
+- Enables different parts of an application to communicate.
+- Example:
+  ```java
+  public class MyEvent extends ApplicationEvent {
+      public MyEvent(Object source) {
+          super(source);
+      }
+  }
+  ```
+
+## 7. Resource Management
+- Simplifies access to files and resources.
+- Example:
+  ```java
+  Resource resource = new ClassPathResource("config.properties");
+  ```
 
 ## 2. Spring Web
 Spring Web provides modules for developing web applications and RESTful APIs.
