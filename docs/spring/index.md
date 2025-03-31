@@ -10,8 +10,8 @@ Outlines the foundational and advanced topics for mastering **Spring Framework**
 
 | Module | Topics | Hands-On | Assessments |
 |----------|------------|------------|------|
-| Overview of Spring | [Spring Introduction](./intro) <br> [Spring Architecture](./architecture) <br> [Spring Modules](./modules) | [Setup Spring Project](./setup) | |
-| Spring Core | [Spring Beans](./spring-beans) <br> [Bean Lifecycle](./bean-lifecycle) <br> [Dependency Injection](./dependency-injection) <br> [Application Context](./application-context) | [Spring Project](./hands-on/spring-app) | |
+| Overview of Spring | [Spring Introduction](./intro) <br> [Spring Architecture](./architecture) <br> [Spring Modules](./modules) | [Setup Spring Project](./handson/01-setup-spring-app) | |
+| Spring Core | [Spring Beans](./beans) <br> [Dependency Injection](./dependency-injection) <br> [Application Context](./application-context) | [Create Spring Beans](./hands-on/02-create-spring-beans) | |
 
 ---
 ## Spring Boot

@@ -1,105 +1,126 @@
-# [Spring](../) > Introduction
+# [Spring](../) > Beans
 
-## What is Spring?
-Spring is a powerful, lightweight framework for building Java-based enterprise applications. It provides comprehensive infrastructure support, helping developers create scalable, maintainable, and secure applications.
+## Overview
 
-## Why Learn Spring?
-- **Lightweight** – Minimal overhead with a modular architecture.
-- **Flexible** – Supports multiple configurations (XML, Java-based, and annotations).
-- **Enterprise-Ready** – Used for web applications, microservices, and cloud-native apps.
-- **Dependency Injection (DI)** – Manages object dependencies efficiently.
-- **Aspect-Oriented Programming (AOP)** – Enables separation of cross-cutting concerns.
+In the Spring Framework, **beans** are the fundamental building blocks that encapsulate the application's core logic and are managed by the Spring Inversion of Control (IoC) container. The container is responsible for instantiating, configuring, and assembling these beans based on the provided configuration metadata. ([docs.spring.io](https://docs.spring.io/spring-framework/reference/core/beans/introduction.html?utm_source=chatgpt.com))
 
-## How Spring Works
-Spring provides a **container-based approach** where dependencies are managed automatically.
+## Defining Beans
 
-1. **Define Beans** – Components are defined as Spring-managed beans.
-2. **Configure Dependencies** – Using XML, annotations, or Java-based configuration.
-3. **Inject Dependencies** – Spring injects required dependencies automatically.
-4. **Run Application** – Spring Boot makes it easy to run applications with minimal setup.
+Beans can be defined using various configuration methods:
 
-## Basic Structure of a Spring Boot Application
-Spring Boot simplifies Spring development with a minimal setup. Here’s a simple example:
+### 1. Java-Based Configuration
+
+Java-based configuration uses the `@Configuration` and `@Bean` annotations to define beans.
+
+**Example:**
 
 ```java
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 
-@SpringBootApplication
-public class SpringDemoApplication {
-    public static void main(String[] args) {
-        SpringApplication.run(SpringDemoApplication.class, args);
+@Configuration
+public class AppConfig {
+    @Bean
+    public MyBean myBean() {
+        return new MyBean();
     }
 }
 ```
 
-### Explanation:
-- `@SpringBootApplication` – Marks this class as a Spring Boot application.
-- `SpringApplication.run(...)` – Boots up the Spring application.
+In this setup, the `myBean` method returns an instance of `MyBean`, and the `@Bean` annotation registers it with the Spring container. ([docs.spring.io](https://docs.spring.io/spring-framework/reference/core/beans/java/bean-annotation.html?utm_source=chatgpt.com))
 
-## Key Features of Spring
-Spring offers several powerful features:
-1. **Inversion of Control (IoC)** – Manages object creation and dependency injection.
-2. **Spring MVC** – Framework for building web applications.
-3. **Spring Boot** – Simplifies Spring application development.
-4. **Spring Data** – Simplifies database access.
-5. **Spring Security** – Provides authentication and authorization.
-6. **Spring Cloud** – Helps in building cloud-native applications.
+### 2. Annotation-Based Configuration
 
-## Spring Core Concepts
-Spring is built on several core concepts:
-1. **Dependency Injection (DI)** – Helps manage object dependencies efficiently.
-2. **Bean Lifecycle** – Defines how beans are created, initialized, and destroyed.
-3. **ApplicationContext** – Central container that manages beans.
-4. **Transaction Management** – Handles database transactions seamlessly.
+Annotations provide a more concise way to define beans directly within Java classes.
 
-## Example of Dependency Injection
+- `@Component`: Marks a class as a Spring component.
+
+**Example:**
+
 ```java
 import org.springframework.stereotype.Component;
-import org.springframework.beans.factory.annotation.Autowired;
 
 @Component
-class Engine {
-    public void start() {
-        System.out.println("Engine started!");
-    }
+public class MyBean {
+    // Class implementation
 }
+```
+
+## Bean Scopes
+
+Spring supports several bean scopes that determine the lifecycle and visibility of beans within the application context:
+
+- **Singleton** (default): A single instance per Spring IoC container.
+- **Prototype**: A new instance each time the bean is requested.
+- **Request**: A single instance per HTTP request (web-aware Spring ApplicationContext).
+- **Session**: A single instance per HTTP session (web-aware Spring ApplicationContext).
+- **Application**: A single instance per ServletContext.
+
+**Example:**
+
+```java
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
 
 @Component
-class Car {
-    private final Engine engine;
-    
-    @Autowired
-    public Car(Engine engine) {
-        this.engine = engine;
+@Scope("prototype")
+public class MyPrototypeBean {
+    // Class implementation
+}
+```
+
+In this example, `MyPrototypeBean` will have a new instance created each time it is requested from the container.
+
+## Bean Lifecycle
+
+The lifecycle of a Spring bean includes several phases:
+
+1. **Instantiation**: The container creates the bean instance.
+2. **Property Population**: Dependencies are injected into the bean.
+3. **Initialization**: Custom initialization methods are called.
+4. **Destruction**: Custom destruction methods are called before the bean is removed from the container.
+
+To define custom initialization and destruction methods, you can use the `@PostConstruct` and `@PreDestroy` annotations, respectively, or specify them in the `@Bean` annotation.
+
+**Example:**
+
+```java
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+import org.springframework.stereotype.Component;
+
+@Component
+public class MyBean {
+    @PostConstruct
+    public void init() {
+        // Initialization code
     }
-    
-    public void drive() {
-        engine.start();
-        System.out.println("Car is moving...");
+
+    @PreDestroy
+    public void destroy() {
+        // Cleanup code
     }
 }
 ```
 
-### Explanation:
-- `@Component` – Marks the class as a Spring-managed bean.
-- `@Autowired` – Injects dependencies automatically.
+Alternatively, using Java-based configuration:
 
-Spring simplifies Java development by providing a comprehensive and modular framework. Learning the fundamentals of Spring will help you build scalable, enterprise-level applications efficiently.
+```java
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 
----
+@Configuration
+public class AppConfig {
+    @Bean(initMethod = "init", destroyMethod = "destroy")
+    public MyBean myBean() {
+        return new MyBean();
+    }
+}
+```
 
-[← Spring](../) | [Spring Architecture →](../architecture)
+In this configuration, the `init` and `destroy` methods are specified for the bean's lifecycle callbacks.
 
----
+## Conclusion
 
-🔗 **Related Topics:**
-- [Introduction](../introduction/)
-- [Spring Core](../architecture)
-- [Spring Boot](../boot/)
-- [Spring MVC](../mvc/)
-- [Spring Security](../security/)
-- [Spring Data](../data/)
-- [Spring Cloud](../cloud/)
+Understanding and effectively managing Spring beans is crucial for developing robust and maintainable applications using the Spring Framework. By leveraging various configuration styles and scopes, developers can create flexible and efficient applications.
 
----
