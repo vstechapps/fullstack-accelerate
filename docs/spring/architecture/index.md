@@ -82,12 +82,13 @@ Spring’s layered architecture makes it flexible, modular, and easy to use for 
 
 ---
 
-[← Spring Introduction](../introduction) | [Spring Core →](../spring-core)
+[← Spring Introduction](../intro) | [Spring Modules →](../modules)
 
 ---
 
 🔗 **Related Topics:**
-- [Spring Core](../spring-core)
+- [Spring Introduction](../intro)
+- [Spring Modules](../modules)
 - [Spring Boot](../boot)
 - [Spring MVC](../mvc)
 - [Spring Security](../security)
