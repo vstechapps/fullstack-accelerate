@@ -94,12 +94,7 @@ Spring simplifies Java development by providing a comprehensive and modular fram
 ---
 
 🔗 **Related Topics:**
-- [Introduction](../introduction/)
-- [Spring Core](../architecture)
-- [Spring Boot](../boot/)
-- [Spring MVC](../mvc/)
-- [Spring Security](../security/)
-- [Spring Data](../data/)
-- [Spring Cloud](../cloud/)
+- [Spring Architecture](../architecture)
+- [Spring Modules](../modules)
 
 ---

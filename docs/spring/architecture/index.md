@@ -13,11 +13,12 @@ Spring is structured into multiple layers:
 | **Spring Data** | Supports database operations and ORM. |
 | **Spring Messaging** | Provides integration with messaging systems like JMS and Kafka. |
 | **Spring Security** | Provides authentication and authorization. |
-| **Spring AOP (Aspect-Oriented Programming)** | Handles cross-cutting concerns like logging and security. |
+| **Spring AOP** | Handles cross-cutting concerns like logging and security. |
 
 ## Spring Core 
 
-Spring Core is the heart of the Spring Framework. It provides key functionalities such as bean management and dependency injection.
+- Spring Core is the heart of the Spring Framework.
+- It provides key functionalities such as bean management and dependency injection.
 
 ![Spring Core Architecture](./spring-core.png)
 
@@ -89,9 +90,5 @@ Spring’s layered architecture makes it flexible, modular, and easy to use for 
 🔗 **Related Topics:**
 - [Spring Introduction](../intro)
 - [Spring Modules](../modules)
-- [Spring Boot](../boot)
-- [Spring MVC](../mvc)
-- [Spring Security](../security)
-- [Spring Cloud](../cloud)
 
 ---
