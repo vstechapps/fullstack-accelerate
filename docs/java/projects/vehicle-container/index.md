@@ -1,12 +1,12 @@
 # [Home](../../) > Vehicle Container - Requirements
 
 ## Introduction
-A simple Java program to manage a collection of vehicles in a container. The system allows users to add different types of vehicles, such as buses and cars, while ensuring that the container does not exceed a predefined maximum load capacity.
+A simple Java program to manage a collection of vehicles in a container. The system allows users to add different types of vehicles, such as bikees and cars, while ensuring that the container does not exceed a predefined maximum load capacity.
 
 ## Functional Requirements
 
 ### 1. Vehicle Management
-- **Add Vehicle**: Users can add a vehicle by specifying type (bus, car), model, registration number, and weight.
+- **Add Vehicle**: Users can add a vehicle by specifying type (bike, car), model, registration number, and weight.
 - **View All Vehicles**: Display a list of all added vehicles.
 - **Check Max Load Capacity**: Ensure that the total weight of all vehicles does not exceed the predefined limit.
 
