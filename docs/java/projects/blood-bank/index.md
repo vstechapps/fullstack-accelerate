@@ -1,4 +1,4 @@
-# [Home](../) > Blood Bank - Java Program Requirements
+# [Home](../../) > Blood Bank - Requirements
 
 ## Introduction
 A simple Java program to search for blood donors based on blood group. The system allows users to register as donors and search for available donors.
