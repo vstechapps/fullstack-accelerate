@@ -141,6 +141,7 @@ public class LoggingAspect {
 
 Spring’s modular architecture allows developers to pick only the components they need, making it highly flexible and scalable.
 
+---
 
 [← Spring Architecture](../architecture) | [Spring Beans →](../beans)
 

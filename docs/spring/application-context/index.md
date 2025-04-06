@@ -1,117 +1,94 @@
-# Spring > Dependency Injection
+# [Spring](../) > ApplicationContext
 
-In the Spring Framework, **Dependency Injection (DI)** is a design pattern that implements **Inversion of Control (IoC)**. It allows the container to manage the dependencies of beans, promoting loose coupling and enhancing testability.
+In the Spring Framework, **ApplicationContext** is the central interface for providing configuration information to an application. It represents the Spring IoC container and is responsible for instantiating, configuring, and assembling beans.
 
 ---
 
-## Defining Dependencies
+## What is ApplicationContext?
 
-Dependencies can be injected into Spring beans using different methods:
+`ApplicationContext` extends the `BeanFactory` interface, adding more enterprise-specific functionality:
 
-### 1. Constructor-Based Dependency Injection
+- Event propagation
+- Declarative mechanisms to create a bean
+- Internationalization (i18n) support
+- Integration with Spring AOP
 
-This method involves injecting dependencies through a class constructor. It's the recommended approach because it enforces immutability and ensures all required dependencies are provided.
+It reads the configuration metadata (either XML or annotations) and manages the complete lifecycle of beans.
+
+---
+
+## Types of ApplicationContext
+
+Spring provides multiple implementations of `ApplicationContext` depending on the type of application:
+
+| Context Class | Description |
+|---------------|-------------|
+| `ClassPathXmlApplicationContext` | Loads context definition from XML file in the classpath |
+| `FileSystemXmlApplicationContext` | Loads context from an XML file in the filesystem |
+| `AnnotationConfigApplicationContext` | Used for Java-based configuration using annotations |
+| `WebApplicationContext` | Specialized version for web applications (used in Spring MVC) |
+
+---
+
+## Example: XML-Based Configuration
 
 ```java
-import org.springframework.stereotype.Component;
-
-@Component
-public class MyService {
-    private final MyRepository myRepository;
-
-    public MyService(MyRepository myRepository) {
-        this.myRepository = myRepository;
-    }
-
-    // Class implementation
-}
+ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
+MyService myService = context.getBean(MyService.class);
 ```
 
-### 2. Setter-Based Dependency Injection
+In this example, Spring reads `beans.xml` from the classpath, initializes all configured beans, and allows access to them via `getBean()`.
 
-Dependencies are injected via setter methods. Useful when dependencies are optional or need to be modified post-initialization.
+---
+
+## Example: Annotation-Based Configuration
 
 ```java
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
-
-@Component
-public class MyService {
-    private MyRepository myRepository;
-
-    @Autowired
-    public void setMyRepository(MyRepository myRepository) {
-        this.myRepository = myRepository;
-    }
-
-    // Class implementation
+@Configuration
+@ComponentScan(basePackages = "com.example.app")
+public class AppConfig {
 }
+
+ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
+MyService myService = context.getBean(MyService.class);
 ```
 
-### 3. Field-Based Dependency Injection
-
-Dependencies are injected directly into fields using `@Autowired`. While concise, this approach is discouraged due to testability and immutability concerns.
-
-```java
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
-
-@Component
-public class MyService {
-    @Autowired
-    private MyRepository myRepository;
-
-    // Class implementation
-}
-```
+Here, Spring scans the specified package for components annotated with `@Component`, `@Service`, `@Repository`, or `@Controller`.
 
 ---
 
-## Qualifying Dependencies
+## Bean Lifecycle in ApplicationContext
 
-When multiple beans of the same type exist, use `@Qualifier` to specify which one to inject:
-
-```java
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
-import org.springframework.stereotype.Component;
-
-@Component
-public class MyService {
-    private final MyRepository myRepository;
-
-    @Autowired
-    public MyService(@Qualifier("specificRepository") MyRepository myRepository) {
-        this.myRepository = myRepository;
-    }
-
-    // Class implementation
-}
-```
+1. **Instantiation:** Spring creates the bean instance.
+2. **Populate Properties:** DI is applied using constructor/setters/fields.
+3. **BeanNameAware / ApplicationContextAware:** Optional callbacks.
+4. **InitializingBean / @PostConstruct:** Initialization hooks.
+5. **Ready for Use:** Bean is available to the application.
+6. **DisposableBean / @PreDestroy:** Clean-up phase during shutdown.
 
 ---
 
-## Best Practices
+## Advantages of ApplicationContext
 
-- **Prefer Constructor Injection:** Ensures required dependencies are not null and supports immutability.
-- **Use `@Qualifier` for Disambiguation:** Helps resolve conflicts when multiple beans of the same type are present.
-- **Avoid Field Injection:** Makes unit testing harder and limits immutability.
-
----
-
-By leveraging Dependency Injection in Spring, you can develop flexible, maintainable, and testable applications with minimal configuration.
+- Manages complete bean lifecycle and dependencies
+- Supports internationalization, events, and resource loading
+- Encourages loose coupling via configuration
+- Works seamlessly with annotations and Java-based config
 
 ---
 
-[← Spring Beans](../beans) | [Application Context →](../application-context)
+The `ApplicationContext` is at the heart of Spring's IoC container. It empowers developers to build scalable and maintainable applications with a clean separation of configuration and business logic.
+
+---
+
+[← Dependecny Injection](../dependency-injection) | [ Spring Boot →](../boot)
 
 ---
 
 🔗 **Related Topics:**
-- [Spring Intro](../intro)
 - [Spring Architecture](../architecture)
-- [Spring Modules](../modules)
 - [Spring Beans](../beans)
-- [Application Context](../application-context)
+- [Dependency Injection](../dependency-injection)
+- [Spring Boot](../boot)
 
 ---

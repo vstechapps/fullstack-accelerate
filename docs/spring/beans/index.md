@@ -124,3 +124,18 @@ In this configuration, the `init` and `destroy` methods are specified for the be
 
 Understanding and effectively managing Spring beans is crucial for developing robust and maintainable applications using the Spring Framework. By leveraging various configuration styles and scopes, developers can create flexible and efficient applications.
 
+---
+
+[← Spring Beans](../beans) | [Dependecny Injection →](../dependency-injection)
+
+---
+
+🔗 **Related Topics:**
+- [Spring Intro](../intro)
+- [Spring Architecture](../architecture)
+- [Spring Beans](../beans)
+- [Dependency Injection](../dependency-injection)
+
+---
+
+
