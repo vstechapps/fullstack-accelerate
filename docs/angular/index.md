@@ -11,7 +11,7 @@ Outlines the foundational and advanced topics for mastering **Angular Framework*
 | Module | Topics | Hands-On | Assessments |
 |--------|--------|----------|-------------|
 | UI Basics | [HTML5](./html5) <br> [CSS3](./css3) <br> [JavaScript](./javascript) | [Static Web Page](./hands-on/html-css-js) | |
-| UI Advanced | [jQuery](./jquery) <br> [Bootstrap 5](./bootstrap) <br> [Responsive Design](./responsive-design) | [Responsive Portfolio Website](./hands-on/bootstrap-jquery) | |
+| UI Advanced | [jQuery](./jquery) <br> [Bootstrap 5](./bootstrap5) <br> [Responsive Design](./responsive-design) | [Responsive Portfolio Website](./hands-on/bootstrap-jquery) | |
 
 ---
 ## Angular Core

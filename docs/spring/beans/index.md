@@ -130,12 +130,5 @@ Understanding and effectively managing Spring beans is crucial for developing ro
 
 ---
 
-🔗 **Related Topics:**
-- [Spring Intro](../intro)
-- [Spring Architecture](../architecture)
-- [Spring Beans](../beans)
-- [Dependency Injection](../dependency-injection)
-
----
 
 

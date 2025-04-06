@@ -77,3 +77,11 @@ Get started with **JavaScript**, the programming language of the web. Learn how 
 - [W3Schools - JavaScript](https://www.w3schools.com/js/)
 
 ---
+🔗 **Related Topics:**
+
+- [HTML5](../html5)
+- [CSS3](../css3)
+- [jQuery](../jquery)
+- [Bootstrap 5](../bootstrap5)
+
+---

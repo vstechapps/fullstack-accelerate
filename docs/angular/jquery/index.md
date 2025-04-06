@@ -16,14 +16,14 @@ Get started with **jQuery**, the fast, small, and feature-rich JavaScript librar
 - Including jQuery via CDN or local file
 - `$(document).ready()` usage
 - jQuery selector syntax (`$()`, `$(".class")`, `$("#id")`)
-
+````html
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script>
       $(document).ready(function () {
         console.log("DOM is ready!");
       });
     </script>
-
+````
 ---
 
 #### 🌐 DOM Manipulation
@@ -33,10 +33,13 @@ Get started with **jQuery**, the fast, small, and feature-rich JavaScript librar
 - Traversing: `.parent()`, `.children()`, `.next()`, `.prev()`
 - Creating/modifying elements: `.append()`, `.prepend()`, `.after()`, `.remove()`
 
+````js
+
     $("#title").text("Updated Title");
     $("#box").css("background-color", "lightblue");
     $("ul li").first().append("<span> ✔️</span>");
 
+````
 ---
 
 #### 🖱️ Events & Handlers
@@ -45,7 +48,7 @@ Get started with **jQuery**, the fast, small, and feature-rich JavaScript librar
 - Event object and delegation
 - Preventing default behavior: `event.preventDefault()`
 - Form events: `.submit()`, `.change()`, `.keyup()`
-
+````js
     $("#btn").click(function () {
       alert("Button clicked!");
     });
@@ -53,7 +56,7 @@ Get started with **jQuery**, the fast, small, and feature-rich JavaScript librar
     $("ul").on("click", "li", function () {
       $(this).toggleClass("done");
     });
-
+````
 ---
 
 #### 📡 AJAX with jQuery
@@ -61,8 +64,9 @@ Get started with **jQuery**, the fast, small, and feature-rich JavaScript librar
 - `.load()` for partial HTML
 - `.get()`, `.post()` for HTTP requests
 - `.ajax()` for advanced configuration
-- Handling responses and errors
+- Supports Handling responses and errors
 
+````js
     $.get("/api/data", function (response) {
       $("#result").html(response);
     });
@@ -78,7 +82,7 @@ Get started with **jQuery**, the fast, small, and feature-rich JavaScript librar
         console.error("Error:", err);
       }
     });
-
+````
 ---
 
 #### 🧪 Utilities & Effects
@@ -87,7 +91,7 @@ Get started with **jQuery**, the fast, small, and feature-rich JavaScript librar
 - Chaining methods
 - `.each()` iteration
 - Utility functions: `$.trim()`, `$.isArray()`, etc.
-
+````js
     $("#box")
       .fadeOut(500)
       .fadeIn(500)
@@ -96,7 +100,7 @@ Get started with **jQuery**, the fast, small, and feature-rich JavaScript librar
     $.each(["Apple", "Banana"], function (index, value) {
       console.log(index + ": " + value);
     });
-
+````
 ---
 
 ### References
