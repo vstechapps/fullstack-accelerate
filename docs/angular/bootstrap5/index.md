@@ -14,6 +14,7 @@ Learn **Bootstrap 5**, the world’s most popular front-end open-source toolkit.
 - Include via CDN or install with npm
 - Structure: Containers, Rows, Columns
 - Responsive grid system (`col`, `col-md-*`, `col-lg-*`)
+
 ```html
     <!-- Bootstrap 5 CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -25,7 +26,7 @@ Learn **Bootstrap 5**, the world’s most popular front-end open-source toolkit.
         <div class="col-md-6">Column 2</div>
       </div>
     </div>
-```
+````
     <!-- Bootstrap 5 CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
@@ -36,7 +37,7 @@ Learn **Bootstrap 5**, the world’s most popular front-end open-source toolkit.
         <div class="col-md-6">Column 2</div>
       </div>
     </div>
-
+```
 ---
 
 ## 🎨 Layout & Utilities

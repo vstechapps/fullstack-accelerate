@@ -8,7 +8,7 @@ Master **Responsive Web Design (RWD)** — an approach that makes web pages rend
 
 ---
 
-#### 🧠 What is Responsive Design?
+## 🧠 What is Responsive Design?
 
 - Adapts layout to screen size, resolution, and orientation
 - Uses flexible grids and images
@@ -20,7 +20,7 @@ Master **Responsive Web Design (RWD)** — an approach that makes web pages rend
 
 ---
 
-#### 📐 Viewport & Meta Tags
+## 📐 Viewport & Meta Tags
 
 - Set viewport for scaling on mobile devices
 - Prevent unwanted zoom or width clipping
@@ -29,7 +29,7 @@ Master **Responsive Web Design (RWD)** — an approach that makes web pages rend
 ````
 ---
 
-#### 📏 Relative Units (%, em, rem, vw, vh)
+## 📏 Relative Units (%, em, rem, vw, vh)
 
 - `%` for container-relative sizing
 - `em`, `rem` for font scaling
@@ -46,7 +46,7 @@ Master **Responsive Web Design (RWD)** — an approach that makes web pages rend
 ````
 ---
 
-#### 🧰 CSS Media Queries
+## 🧰 CSS Media Queries
 
 - Customize styles for different breakpoints
 - Common breakpoints:
@@ -69,7 +69,7 @@ Master **Responsive Web Design (RWD)** — an approach that makes web pages rend
 ````
 ---
 
-#### 📱 Mobile-First Design
+## 📱 Mobile-First Design
 
 - Start with styles for mobile screens
 - Use `min-width` media queries to scale up
@@ -79,7 +79,7 @@ Master **Responsive Web Design (RWD)** — an approach that makes web pages rend
 
 ---
 
-#### 🧩 Responsive Layouts with Flexbox & Grid
+## 🧩 Responsive Layouts with Flexbox & Grid
 
 - Flexbox: auto-wrap and align
 - CSS Grid: define areas and columns
@@ -96,7 +96,7 @@ Master **Responsive Web Design (RWD)** — an approach that makes web pages rend
 ````
 ---
 
-#### 🌆 Responsive Images
+## 🌆 Responsive Images
 
 - Use `max-width: 100%` and `height: auto`
 - `<picture>` and `srcset` for art direction
@@ -110,7 +110,7 @@ Master **Responsive Web Design (RWD)** — an approach that makes web pages rend
 ````
 ---
 
-#### 🛠️ Testing & Tools
+## 🛠️ Testing & Tools
 
 - Chrome DevTools device mode
 - [Responsively App](https://responsively.app/)
