@@ -8,9 +8,7 @@ Get started with **jQuery**, the fast, small, and feature-rich JavaScript librar
 
 ---
 
-### Topics Covered
-
-#### 📦 jQuery Basics
+## 📦 jQuery Basics
 
 - What is jQuery and why use it?
 - Including jQuery via CDN or local file
@@ -27,7 +25,7 @@ Get started with **jQuery**, the fast, small, and feature-rich JavaScript librar
 ````
 ---
 
-#### 🌐 DOM Manipulation
+## 🌐 DOM Manipulation
 
 - Getting/setting content: `.text()`, `.html()`, `.val()`
 - Changing styles: `.css()`, `.addClass()`, `.removeClass()`
@@ -43,7 +41,7 @@ Get started with **jQuery**, the fast, small, and feature-rich JavaScript librar
 ````
 ---
 
-#### 🖱️ Events & Handlers
+## 🖱️ Events & Handlers
 
 - Binding events: `.click()`, `.hover()`, `.on()`
 - Event object and delegation
@@ -61,7 +59,7 @@ Get started with **jQuery**, the fast, small, and feature-rich JavaScript librar
 ````
 ---
 
-#### 📡 AJAX with jQuery
+## 📡 AJAX with jQuery
 
 - `.load()` for partial HTML
 - `.get()`, `.post()` for HTTP requests
@@ -87,7 +85,7 @@ Get started with **jQuery**, the fast, small, and feature-rich JavaScript librar
 ````
 ---
 
-#### 🧪 Utilities & Effects
+## 🧪 Utilities & Effects
 
 - Animations: `.hide()`, `.show()`, `.fadeIn()`, `.slideToggle()`
 - Chaining methods
@@ -111,5 +109,15 @@ Get started with **jQuery**, the fast, small, and feature-rich JavaScript librar
 - [jQuery Official Documentation](https://api.jquery.com/)
 - [Learn jQuery - W3Schools](https://www.w3schools.com/jquery/)
 - [jQuery Fundamentals](https://learn.jquery.com/)
+
+---
+
+🔗 **Related Topics:**
+
+- [HTML5](../html5)
+- [CSS3](../css3)
+- [Javascript](,,/javacript)
+- [jQuery](../jquery)
+- [Bootstrap 5](../bootstrap5)
 
 ---

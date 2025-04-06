@@ -8,9 +8,7 @@ Learn to style web pages using **CSS3**, including layout, visual design, and re
 
 ---
 
-### Topics Covered
-
-#### 🎯 Alignment & Positioning
+## 🎯 Alignment & Positioning
 
 - `position`: static, relative, absolute, fixed, sticky
 - `top`, `right`, `bottom`, `left`
@@ -29,7 +27,7 @@ Learn to style web pages using **CSS3**, including layout, visual design, and re
 
 ---
 
-#### 📦 Box Model & Layout
+## 📦 Box Model & Layout
 
 - `margin`, `padding`, `border`
 - `width`, `height`, `max-width`, `min-height`
@@ -49,7 +47,7 @@ Learn to style web pages using **CSS3**, including layout, visual design, and re
 
 ---
 
-#### 💅 Visual Styling
+## 💅 Visual Styling
 
 - `color`, `background-color`, `background-image`
 - `font-family`, `font-size`, `font-weight`, `line-height`
@@ -70,7 +68,7 @@ Learn to style web pages using **CSS3**, including layout, visual design, and re
 
 ---
 
-#### 📐 Flexbox & Grid
+## 📐 Flexbox & Grid
 
 - Flexbox: `display: flex`, `justify-content`, `align-items`, `flex-wrap`
 - Grid: `display: grid`, `grid-template-columns`, `gap`, `grid-area`
@@ -94,7 +92,7 @@ Learn to style web pages using **CSS3**, including layout, visual design, and re
 
 ---
 
-#### 📱 Responsive Design
+## 📱 Responsive Design
 
 - Media queries: `@media`, breakpoints
 - Units: `%`, `em`, `rem`, `vh`, `vw`
@@ -119,7 +117,7 @@ img {
 
 ---
 
-#### 🌀 Transitions & Animations
+## 🌀 Transitions & Animations
 
 - `transition`, `transition-duration`, `ease`, `cubic-bezier`
 - `@keyframes`, `animation-name`, `animation-duration`
@@ -146,7 +144,7 @@ img {
 
 ---
 
-#### 🌈 CSS Variables
+## 🌈 CSS Variables
 
 - Defining custom properties: `--main-color: #333`
 - Using variables: `color: var(--main-color)`

@@ -8,9 +8,7 @@
 
 ---
 
-### Topics Covered
-
-#### 🏗️ Document Structure
+## 🏗️ Document Structure
 
 - `<!DOCTYPE html>`
 - `<html>`, `<head>`, `<body>`
@@ -32,7 +30,7 @@
 
 ---
 
-#### 🧱 Structural & Semantic Elements
+## 🧱 Structural & Semantic Elements
 
 - `<header>`, `<footer>`, `<nav>`
 - `<article>`, `<section>`, `<aside>`
@@ -64,7 +62,7 @@
 
 ---
 
-#### 📄 Text and Content Elements
+## 📄 Text and Content Elements
 
 - Headings (`<h1>` to `<h6>`)
 - Paragraphs, Lists (`<p>`, `<ul>`, `<ol>`, `<li>`)
@@ -85,7 +83,7 @@
 
 ---
 
-#### 🧭 Hyperlinks and Media
+## 🧭 Hyperlinks and Media
 
 - Anchor tags: `<a href="">`
 - Images: `<img>`
@@ -102,7 +100,7 @@
 
 ---
 
-#### 🧾 Forms and Inputs
+## 🧾 Forms and Inputs
 
 - Form structure: `<form>`, `<label>`, `<fieldset>`
 - Input types: `text`, `email`, `number`, `date`, `checkbox`, `radio`, etc.
@@ -123,7 +121,7 @@
 
 ---
 
-### 🖱️ Interactive & Action Elements
+## 🖱️ Interactive & Action Elements
 
 - Buttons: `<button>`, `type="submit"` vs `type="button"` vs `type="reset"`
 - Form actions: `action`, `method`, `enctype`
@@ -139,7 +137,7 @@
 
 ---
 
-#### 🎨 Graphics and Interactive
+## 🎨 Graphics and Interactive
 
 - `<canvas>` and drawing APIs
 - `<svg>` for scalable vector graphics
@@ -159,7 +157,7 @@
 
 ---
 
-#### ♿ Accessibility and SEO
+## ♿ Accessibility and SEO
 
 - Use of `alt` attributes
 - Semantic tags for screen readers

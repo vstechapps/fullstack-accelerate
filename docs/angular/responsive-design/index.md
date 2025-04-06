@@ -8,8 +8,6 @@ Master **Responsive Web Design (RWD)** — an approach that makes web pages rend
 
 ---
 
-### Topics Covered
-
 #### 🧠 What is Responsive Design?
 
 - Adapts layout to screen size, resolution, and orientation

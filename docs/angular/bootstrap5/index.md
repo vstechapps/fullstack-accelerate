@@ -8,9 +8,7 @@ Learn **Bootstrap 5**, the world’s most popular front-end open-source toolkit.
 
 ---
 
-### Topics Covered
-
-#### 📦 Getting Started
+## 📦 Getting Started
 
 - What is Bootstrap?
 - Include via CDN or install with npm
@@ -41,7 +39,7 @@ Learn **Bootstrap 5**, the world’s most popular front-end open-source toolkit.
 
 ---
 
-#### 🎨 Layout & Utilities
+## 🎨 Layout & Utilities
 
 - Spacing: `.m-*`, `.p-*`, `.mt-3`, `.px-2`
 - Display utilities: `.d-flex`, `.d-none`, `.d-grid`
@@ -58,7 +56,7 @@ Learn **Bootstrap 5**, the world’s most popular front-end open-source toolkit.
     </div>
 ---
 
-#### 🧩 Components
+## 🧩 Components
 
 - Alerts: `.alert`, `.alert-success`, `.alert-danger`
 - Buttons: `.btn`, `.btn-primary`, `.btn-outline-*`
@@ -83,7 +81,7 @@ Learn **Bootstrap 5**, the world’s most popular front-end open-source toolkit.
 
 ---
 
-#### ✨ Forms & Inputs
+## ✨ Forms & Inputs
 
 - Form controls: `.form-control`, `.form-label`, `.form-check`
 - Validation states: `.is-valid`, `.is-invalid`
@@ -99,7 +97,7 @@ Learn **Bootstrap 5**, the world’s most popular front-end open-source toolkit.
 
 ---
 
-#### 🧭 Navigation & Modals
+## 🧭 Navigation & Modals
 
 - Navbar: `.navbar`, `.navbar-expand`, `.navbar-dark`, `.bg-dark`
 - Collapse: toggler buttons
@@ -123,7 +121,7 @@ Learn **Bootstrap 5**, the world’s most popular front-end open-source toolkit.
 
 ---
 
-#### 🛠️ Customization & Theming
+## 🛠️ Customization & Theming
 
 - Using Sass variables
 - Override default styles

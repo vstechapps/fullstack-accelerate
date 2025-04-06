@@ -8,9 +8,7 @@ Get started with **JavaScript**, the programming language of the web. Learn how 
 
 ---
 
-### Topics Covered
-
-#### 📦 Variables & Data Types
+## 📦 Variables & Data Types
 
 - Declaring variables: `var`, `let`, `const`
 - Primitive data types: string, number, boolean, null, undefined, symbol
@@ -27,7 +25,7 @@ console.log(greeting);
 
 ---
 
-#### 🧠 Operators & Control Flow
+## 🧠 Operators & Control Flow
 
 - Arithmetic, comparison, logical, assignment, ternary
 - Conditional statements: `if`, `else`, `switch`
@@ -52,7 +50,7 @@ for (let i = 0; i < 3; i++) {
 
 ---
 
-#### 🧩 Functions & Scope
+## 🧩 Functions & Scope
 
 - Function declarations vs expressions
 - Arrow functions (`=>`)
@@ -81,7 +79,7 @@ console.log(counter()); // 2
 
 ---
 
-#### 🗃️ Arrays & Objects
+## 🗃️ Arrays & Objects
 
 - Array methods: `push`, `pop`, `map`, `filter`, `reduce`, `forEach`
 - Object properties, methods, and destructuring
@@ -105,7 +103,7 @@ console.log(`${name} lives in ${city}`);
 
 ---
 
-#### 🌐 DOM Manipulation
+## 🌐 DOM Manipulation
 
 - Selecting elements: `getElementById`, `querySelector`, etc.
 - Changing content: `innerText`, `innerHTML`, `value`
@@ -124,7 +122,7 @@ document.querySelector("ul").appendChild(newItem);
 
 ---
 
-#### 🖱️ Events & Interactivity
+## 🖱️ Events & Interactivity
 
 - Handling events: `onclick`, `onchange`, `addEventListener`
 - Common events: click, submit, keyup, mouseover, input
@@ -143,7 +141,7 @@ document.getElementById("nameInput").addEventListener("input", function(e) {
 
 ---
 
-#### 🧪 Error Handling & Debugging
+## 🧪 Error Handling & Debugging
 
 - `try`, `catch`, `finally`
 - `throw` keyword
@@ -163,7 +161,7 @@ try {
 
 ---
 
-#### 🚀 Modern JavaScript (ES6+)
+## 🚀 Modern JavaScript (ES6+)
 
 - Destructuring, spread/rest operators
 - `let`/`const` vs `var`
