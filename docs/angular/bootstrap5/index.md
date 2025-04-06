@@ -16,7 +16,18 @@ Learn **Bootstrap 5**, the world’s most popular front-end open-source toolkit.
 - Include via CDN or install with npm
 - Structure: Containers, Rows, Columns
 - Responsive grid system (`col`, `col-md-*`, `col-lg-*`)
+```html
+    <!-- Bootstrap 5 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">Column 1</div>
+        <div class="col-md-6">Column 2</div>
+      </div>
+    </div>
+```
     <!-- Bootstrap 5 CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
@@ -37,10 +48,14 @@ Learn **Bootstrap 5**, the world’s most popular front-end open-source toolkit.
 - Positioning: `.position-relative`, `.top-0`, `.start-50`
 - Text & background: `.text-center`, `.text-muted`, `.bg-light`, `.bg-primary`
 
+```html
     <div class="p-3 mb-2 bg-warning text-dark text-center">
       Highlighted Box
     </div>
-
+```
+    <div class="p-3 mb-2 bg-warning text-dark text-center">
+      Highlighted Box
+    </div>
 ---
 
 #### 🧩 Components
@@ -49,7 +64,15 @@ Learn **Bootstrap 5**, the world’s most popular front-end open-source toolkit.
 - Buttons: `.btn`, `.btn-primary`, `.btn-outline-*`
 - Cards: `.card`, `.card-body`, `.card-title`
 - Navs & Tabs, Badges, Progress Bars, Toasts
-
+````html
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Card Title</h5>
+        <p class="card-text">Quick content example.</p>
+        <a href="#" class="btn btn-primary">Go</a>
+      </div>
+    </div>
+````
     <div class="card">
       <div class="card-body">
         <h5 class="card-title">Card Title</h5>
