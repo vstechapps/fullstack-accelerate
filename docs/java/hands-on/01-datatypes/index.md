@@ -1,4 +1,4 @@
-# [Java](../../) - Excercise 1
+# [Java](../../) > 🧑‍💻 Exercise 1
 
 ### Problem 1: Arithmetic Operations
 **Description:**

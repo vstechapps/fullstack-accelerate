@@ -1,4 +1,4 @@
-# [Java](../../) - Conditional Statements Exercises
+# [Java](../../) > 🧑‍💻 Conditional Statements Exercise
 
 ### Problem 1: Simple If Condition
 **Description:**

@@ -1,4 +1,4 @@
-# [Java](../../) - Excercise 3
+# [Java](../../) > 🧑‍💻 Excercise 3
 
 ## Strings
 

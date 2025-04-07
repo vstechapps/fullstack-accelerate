@@ -1,4 +1,4 @@
-# [Java](../../) - Excercise 2
+# [Java](../../) > 🧑‍💻 Exercise 2
 
 ## Arrays
 

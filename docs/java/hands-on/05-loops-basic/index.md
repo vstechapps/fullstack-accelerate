@@ -1,4 +1,4 @@
-# [Java](../../) - Loops Basics Exercises
+# [Java](../../) > 🧑‍💻 Loops Basics Exercise
 
 ### Problem 1: Print Numbers using a For Loop
 **Description:**
