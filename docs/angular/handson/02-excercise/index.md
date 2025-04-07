@@ -7,7 +7,7 @@ Hands-on practice problems for learners who have completed HTML5, CSS3, and Java
 
 ## 1. Create a Personal Portfolio Page
 
-Design a static page with your name, profile picture, a short bio, and links to your GitHub, LinkedIn, and Twitter.
+Design a static page with your name, profile picture, a short bio, skillset and links to your GitHub, LinkedIn, and Twitter.
 
 ### 🎯 Requirements:
 - Profile image
