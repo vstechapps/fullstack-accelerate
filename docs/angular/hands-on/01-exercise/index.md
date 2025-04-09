@@ -16,6 +16,8 @@ Design a static page with your name, profile picture, a short bio, and links to 
 
 ### 🔲 Sample UI Thumbnail (HTML)
 
+<img src="../portfolio.png" />
+
 ```html
 <div style="border:1px solid #ccc; padding:10px; width:250px;">
   <img src="profile.jpg" alt="Profile" style="width:100%; border-radius:50%;">
