@@ -1,7 +1,7 @@
 
 # [Angular](../) > 🧑‍💻 Exercise 01
 
-Hands-on practice problems for learners who have completed HTML5, CSS3, and JavaScript basics.
+For learners who have completed [HTML5](../../html5/), [CSS3](../../css3/), and [JavaScript](../../javascript/)
 
 ---
 
@@ -14,9 +14,9 @@ Design a static page with your name, profile picture, a short bio, and links to 
 - Bio/about me section
 - Skills list
 
-### 🔲 Sample UI Thumbnail (HTML)
+### 🔲 Sample UI
 
-<img src="../portfolio.png" />
+![image1](./image1.png)
 
 ```html
 <div style="border:1px solid #ccc; padding:10px; width:250px;">
@@ -40,7 +40,9 @@ Create a static landing page for a product with title, description, image, featu
 - Feature list
 - Price and "Buy Now" button
 
-### 🔲 Sample UI Thumbnail (HTML)
+### 🔲 Sample UI Thumbnail
+
+![image2](./image2.png)
 
 ```html
 <div style="border:1px solid #ccc; padding:10px; width:250px;">
