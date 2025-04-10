@@ -18,4 +18,11 @@ A simple and intuitive web application where users can create, view, and manage 
 - 📌 Drag-and-drop positioning of notes on the wall
 - 💾 Optional: Save state in local storage (to persist across page refresh)
 
+### 🔲 Sample UI
+
+![image3](./image3.png)
+
+🧪 Example Usage
+Click the "Add Note" button to create a new sticky. Each note gets a random color and can be moved or edited directly.
+
 ---
