@@ -1,5 +1,5 @@
 
-# [Angular](../../) > 🧑‍💻 Exercise 01
+# [Angular](../../) > 🧑‍💻 Exercise 02
 
 For learners who have completed Bootstrap 5, JQuery, Responsive Design
 
