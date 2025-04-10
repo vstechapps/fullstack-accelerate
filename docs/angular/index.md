@@ -11,7 +11,7 @@ Outlines the foundational and advanced topics for mastering **Angular Framework*
 | Module | Topics | Hands-On | Assessments |
 |--------|--------|----------|-------------|
 | UI Basics | [HTML5](./html5) <br> [CSS3](./css3) <br> [JavaScript](./javascript) | [Static Web Pages](./hands-on/01-exercise) | |
-| UI Advanced | [jQuery](./jquery) <br> [Bootstrap 5](./bootstrap5) <br> [Responsive Design](./responsive-design) | [Responsive Bootstrap Websites](./hands-on/02-excercise) | |
+| UI Advanced | [jQuery](./jquery) <br> [Bootstrap 5](./bootstrap5) <br> [Responsive Design](./responsive-design) | [Responsive Bootstrap Websites](./hands-on/02-exercise) | |
 
 ---
 ## Angular Core
@@ -19,8 +19,8 @@ Outlines the foundational and advanced topics for mastering **Angular Framework*
 
 | Module | Topics | Hands-On | Assessments |
 |--------|--------|----------|-------------|
-| Getting Started | [Angular CLI](./angular-cli) <br> [Project Structure](./project-structure) <br> [TypeScript Basics](./typescript) | [Create First Angular App](./hands-on/angular-setup) | |
-| Components & Templates | [Component Lifecycle](./components) <br> [Template Syntax](./template-syntax) <br> [Data Binding](./data-binding) | [Component Communication](./hands-on/component-binding) | |
+| Getting Started | [Introduction](../introduction) <br> [Angular CLI](./cli) <br> [Project Structure](./cli) <br> [TypeScript Basics](./cli) | [Create First Angular App](./hands-on/03-exercise) | |
+| Components & Templates | [Components](./components) <br> [Templates](./templates) <br> [Data Binding](./data-binding) | [Component Communication](./hands-on/component-binding) | |
 | Directives & Pipes | [Built-in Directives](./directives) <br> [Custom Directives](./custom-directives) <br> [Pipes](./pipes) | [Build Custom Pipe](./hands-on/custom-pipe) | |
 
 ---

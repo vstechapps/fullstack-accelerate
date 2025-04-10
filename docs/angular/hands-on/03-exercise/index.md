@@ -5,7 +5,7 @@
 
 # 🚀 Your First Angular App
 
-A simple and intuitive web application where users can create, view, and manage virtual sticky notes. Ideal for organizing thoughts, ideas, and tasks in a colorful, draggable interface.
+Getting Started with Your First Angular App in  4 simple steps
 
 ## 🛠️ Prerequisites
 - [Node JS](../../../tools/nodejs/)
