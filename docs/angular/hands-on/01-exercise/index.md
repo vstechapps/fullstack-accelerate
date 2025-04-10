@@ -1,5 +1,5 @@
 
-# [Angular](../) > 🧑‍💻 Exercise 01
+# [Angular](../../) > 🧑‍💻 Exercise 01
 
 For learners who have completed [HTML5](../../html5/), [CSS3](../../css3/), and [JavaScript](../../javascript/)
 
