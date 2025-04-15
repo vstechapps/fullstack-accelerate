@@ -20,8 +20,8 @@ Outlines the foundational and advanced topics for mastering **Angular Framework*
 | Module | Topics | Hands-On | Assessments |
 |--------|--------|----------|-------------|
 | Getting Started | [Introduction](./introduction) <br> [Angular CLI](./cli) <br> [Project Structure](./project-structure) <br> [TypeScript](./typescript) | [Create First Angular App](./hands-on/03-exercise) | |
-| Components & Templates | [Components](./components) <br> [Templates](./templates) <br> [Data Binding](./data-binding) | [Component Communication](./hands-on/component-binding) | |
-| Directives & Pipes | [Built-in Directives](./directives) <br> [Custom Directives](./custom-directives) <br> [Pipes](./pipes) | [Build Custom Pipe](./hands-on/custom-pipe) | |
+| Components & Templates | [Components](./components) <br> [Data Binding](./data-binding) | [Component Communication](./hands-on/component-binding) | |
+| Directives & Pipes | [Directives](./directives) <br> [Pipes](./pipes) | [Build Custom Pipe](./hands-on/custom-pipe) | |
 
 ---
 ## Angular Services

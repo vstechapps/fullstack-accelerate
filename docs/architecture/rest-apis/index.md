@@ -1,4 +1,4 @@
-# [Fullstack Architecture](../) > 🌐 REST API
+# [Fullstack Architecture](../) > 🌐 REST APIs
 
 Welcome to the world of web development!
 
