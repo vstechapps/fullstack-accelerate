@@ -47,7 +47,7 @@ Formats numbers as percentages.
 ### 6. **JsonPipe**
 Displays objects in JSON format.
 ```html
-<p>{{ { name: 'John', age: 30 } | json }}</p> <!-- Output: {"name":"John","age":30} -->
+<p>{{ js_object | json }}</p> <!-- Output: {"name":"John","age":30} -->
 ```
 
 ---
