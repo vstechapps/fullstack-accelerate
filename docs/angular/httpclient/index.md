@@ -14,6 +14,39 @@ To use `HttpClient`, import `HttpClientModule` into your application module. Thi
 
 ---
 
+### 🚀 Simple HttpClient Example
+
+Here's a basic example of using `HttpClient` in a service to fetch data from an API:
+
+```typescript
+import { Injectable } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
+
+@Injectable({
+  providedIn: 'root'
+})
+export class DataService {
+  private apiUrl = 'https://jsonplaceholder.typicode.com/todos/1';
+
+  constructor(private http: HttpClient) {}
+
+  getData(): Observable<any> {
+    return this.http.get<any>(this.apiUrl);
+  }
+
+  postData(data: any): Observable<any> {
+    const httpOptions = {
+      headers: new HttpHeaders({
+        'Content-Type':  'application/json',
+      })
+    };
+    return this.http.post<any>(this.apiUrl, data, httpOptions);
+  }
+}
+```
+---
+
 ### 📄 Key Features of HttpClient
 
 - **Observables-Based API**: All HTTP methods return RxJS `Observable` objects, making it easy to handle asynchronous operations with powerful operators.

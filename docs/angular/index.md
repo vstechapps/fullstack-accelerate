@@ -29,8 +29,8 @@ Outlines the foundational and advanced topics for mastering **Angular Framework*
 
 | Module | Topics | Hands-On | Assessments |
 |--------|--------|----------|-------------|
-| Dependency Injection | [Injectable Services](./services) <br> [HTTPClient](./httpclient) <br> [Observables & RxJS](./rxjs) | [API Integration](./hands-on/http-service) | |
-| Routing & Navigation | [Routing Basics](./routing) <br> [Route Guards](./route-guards) <br> [Lazy Loading](./lazy-loading) | [Multi-Page App](./hands-on/angular-routing) | |
+| Dependency Injection | [Injectable Services](./services) <br> [HTTPClient](./httpclient) <br> [RxJS & Observables](./rxjs) | [API Integration](./hands-on/http-service) | |
+| Routing & Navigation | [Routing Basics](./routing) <br> [Route Guards](./routing) <br> [Lazy Loading](./routing) | [Multi-Page App](./hands-on/angular-routing) | |
 
 ---
 ## Angular Forms
@@ -38,7 +38,7 @@ Outlines the foundational and advanced topics for mastering **Angular Framework*
 
 | Module | Topics | Hands-On | Assessments |
 |--------|--------|----------|-------------|
-| Template-Driven Forms | [Form Controls](./template-driven) <br> [Validation](./template-validation) | [User Form](./hands-on/template-form) | |
+| Template-Driven Forms | [Forms](./forms <br> [Validation](./forms) | [User Form](./hands-on/template-form) | |
 | Reactive Forms | [FormGroup & FormBuilder](./reactive-forms) <br> [Advanced Validation](./reactive-validation) | [Login Form with Reactive Validation](./hands-on/reactive-form) | |
 
 ---
