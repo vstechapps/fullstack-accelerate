@@ -1,0 +1,19 @@
+<div *ngIf="assessment">
+  <h1>{{ assessment.title }}</h1>
+  <mat-progress-bar mode="determinate" [value]="progress"></mat-progress-bar>
+
+  <div *ngIf="assessment.questions[currentQuestionIndex] as question">
+    <h2>Question {{ currentQuestionIndex + 1 }}: {{ question.text }}</h2>
+    <form [formGroup]="form">
+      <mat-radio-group formControlName="selectedOption">
+        <mat-radio-button *ngFor="let option of question.options" [value]="option">
+          {{ option }}
+        </mat-radio-button>
+      </mat-radio-group>
+    </form>
+  </div>
+
+  <button mat-raised-button color="primary" (click)="onNext()" [disabled]="form.invalid">
+    {{ isLastQuestion() ? 'Finish' : 'Next' }}
+  </button>
+</div>

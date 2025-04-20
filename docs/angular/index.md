@@ -38,7 +38,7 @@ Outlines the foundational and advanced topics for mastering **Angular Framework*
 
 | Module | Topics | Hands-On | Assessments |
 |--------|--------|----------|-------------|
-| Template-Driven Forms | [Forms](./forms <br> [Validation](./forms) | [User Form](./hands-on/template-form) | |
+| Template-Driven Forms | [Forms](./forms) <br> [Validation](./forms) | [User Form](./hands-on/template-form) | |
 | Reactive Forms | [FormGroup & FormBuilder](./reactive-forms) <br> [Advanced Validation](./reactive-validation) | [Login Form with Reactive Validation](./hands-on/reactive-form) | |
 
 ---
