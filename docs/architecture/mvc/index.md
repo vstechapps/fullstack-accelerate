@@ -93,6 +93,7 @@ Controller responsibilities include:
 ## Folder Structure Example
 
 ```plaintext
+
 springboot-angular-app/
 ├── backend/
 │   ├── model/
@@ -107,3 +108,5 @@ springboot-angular-app/
 │   │   ├── services/
 │   ├── app.module.ts
 │   └── main.ts
+
+```
