@@ -91,6 +91,7 @@ Services in a microservices architecture communicate with each other via lightwe
 ## Folder Structure Example
 
 ```plaintext
+
 microservices-app/
 ├── backend/
 │   ├── service-a/
@@ -115,3 +116,5 @@ microservices-app/
 │   ├── app.module.ts
 │   └── main.ts
 └── docker-compose.yml
+
+```
