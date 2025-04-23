@@ -97,6 +97,7 @@ These shared dependencies are typically declared as `singletons` when using Modu
 ## Folder Structure Example
 
 ```plaintext
+
 microfrontends-app/
 ├── shell-app/
 │   ├── src/
@@ -112,3 +113,5 @@ microfrontends-app/
 │   ├── angular.json
 └── shared-lib/
     ├── src/
+
+```
