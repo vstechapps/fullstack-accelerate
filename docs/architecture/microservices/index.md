@@ -1,4 +1,4 @@
-# [Fullstack Architecture](../) >🌐 Microservices
+# [Fullstack Architecture](../) > 🌐 Microservices
 
 Microservices is an architectural style that structures an application as a collection of small, loosely coupled services, which can be developed, deployed, and scaled independently. Each service in a microservices architecture focuses on a specific business capability and can be built and deployed independently.
 
