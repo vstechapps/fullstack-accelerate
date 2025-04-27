@@ -1,8 +1,8 @@
-# [Fullstack Architecture](../) > 🌐 REST APIs
+# [Fullstack](../../) > [Architecture](../) > 🌐 REST APIs
 
 Welcome to the world of web development!
 
-A REST API (Representational State Transfer Application Programming Interface) is a way for different software programs or systems to communicate with each other over the internet, much like how humans use languages to communicate. Imagine you’re at a restaurant: you (the client) give your order (a request) to the waiter (the API), and the waiter passes your order to the kitchen (the server). The kitchen prepares your food (processes the request), and the waiter brings it back to you (the response). Just like how a menu lists available food options, the API lists different commands or actions that can be requested from the server, and the server responds with the information or data you asked for. REST APIs are used everywhere – from checking weather forecasts to sending messages on social media.
+A REST API (Representational State Transfer Application Programming Interface) is a way for different software programs or systems to communicate with each other over the internet, much like how humans use languages to communicate. Imagine you're at a restaurant: you (the client) give your order (a request) to the waiter (the API), and the waiter passes your order to the kitchen (the server). The kitchen prepares your food (processes the request), and the waiter brings it back to you (the response). Just like how a menu lists available food options, the API lists different commands or actions that can be requested from the server, and the server responds with the information or data you asked for. REST APIs are used everywhere – from checking weather forecasts to sending messages on social media.
 
 ---
 

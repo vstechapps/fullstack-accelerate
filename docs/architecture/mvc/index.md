@@ -1,4 +1,4 @@
-# [Fullstack Architecture](../) > 🎭 MVC Architecture
+# [Fullstack](../../) > [Architecture](../) > 🎭 MVC Architecture
 
 The **Model-View-Controller (MVC)** architecture is a widely adopted design pattern for building scalable, maintainable, and modular applications. It separates an application into three main logical components: **Model**, **View**, and **Controller**. Each of these components handles specific responsibilities within the application.
 

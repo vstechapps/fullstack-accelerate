@@ -1,4 +1,4 @@
-# [Fullstack Architecture](../) > 🌐 Microservices
+# [Fullstack](../../) > [Architecture](../) > 🌐 Microservices
 
 Microservices is an architectural style that structures an application as a collection of small, loosely coupled services, which can be developed, deployed, and scaled independently. Each service in a microservices architecture focuses on a specific business capability and can be built and deployed independently.
 
@@ -9,7 +9,7 @@ Microservices is an architectural style that structures an application as a coll
 Microservices offer several advantages, particularly for complex, large-scale applications:
 
 - 🚀 **Scalability**: Each service can be scaled independently to meet specific demands.
-- 🛡️ **Resilience**: Failure in one service doesn’t necessarily affect the entire application.
+- 🛡️ **Resilience**: Failure in one service doesn't necessarily affect the entire application.
 - ⚡ **Faster Development**: Development teams can work on different services independently, accelerating time-to-market.
 - 🎨 **Flexibility**: Microservices allow using different technologies and programming languages for each service.
 - 🧹 **Easier Maintenance**: Each service is smaller and focused on specific functionality, making it easier to understand, maintain, and modify.

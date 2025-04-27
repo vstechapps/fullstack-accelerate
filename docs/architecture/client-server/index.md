@@ -1,10 +1,10 @@
-# [Fullstack Architecture](../) > 🌐 Client-Server Model
+# [Fullstack](../../) > [Architecture](../) > 🌐 Client-Server Model
 
 Welcome to the world of web development! 
 
-Let’s take a closer look at the client-server architecture, a foundational concept that powers the vast majority of interactions on the internet today. From browsing websites and using mobile apps to streaming content and sending emails, this model governs how devices (clients) communicate with centralized systems (servers) to exchange data and deliver services. 
+Let's take a closer look at the client-server architecture, a foundational concept that powers the vast majority of interactions on the internet today. From browsing websites and using mobile apps to streaming content and sending emails, this model governs how devices (clients) communicate with centralized systems (servers) to exchange data and deliver services. 
 
-It’s the backbone of modern digital communication, enabling scalable, efficient, and reliable interactions across the globe.
+It's the backbone of modern digital communication, enabling scalable, efficient, and reliable interactions across the globe.
 
 ---
 

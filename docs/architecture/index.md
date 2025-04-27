@@ -1,4 +1,4 @@
-# [Home](../) > Fullstack Architecture
+# [Fullstack](../) > Architecture
 
 Below is the list of essential topics for understanding fullstack architecture:
 

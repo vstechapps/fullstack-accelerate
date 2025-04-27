@@ -1,4 +1,4 @@
-# [Fullstack Architecture](../) > 🌐 Stable APIs
+# [Fullstack](../../) > [Architecture](../) > 🌐 Stable APIs
 
 A **Stable API** is an API designed to provide consistent and reliable functionality over time, ensuring minimal disruption to clients even as the underlying system evolves. Stability in APIs is crucial for maintaining trust and usability, especially in large-scale applications where multiple clients depend on the API.
 

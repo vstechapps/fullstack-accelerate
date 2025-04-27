@@ -1,4 +1,4 @@
-# [Fullstack Architecture](../) > 🌐 Progressive Web Applications (PWAs)
+# [Fullstack](../../) > [Architecture](../) > 🌐 Progressive Web Applications
 
 A **Progressive Web Application (PWA)** is a type of web application that combines the best features of web and native apps. PWAs are fast, reliable, and engaging, offering a seamless user experience across devices and platforms. They leverage modern web technologies to provide offline capabilities, push notifications, and app-like performance.
 
@@ -108,6 +108,9 @@ angular-pwa/
 │   │   ├── components/
 │   │   ├── services/
 │   │   ├── models/
+│   │   ├── app.module.ts
+│   │   ├── app.component.ts
+│   │   ├── app-routing.module.ts
 │   │   ├── app.module.ts
 │   │   ├── app.component.ts
 │   │   ├── app-routing.module.ts

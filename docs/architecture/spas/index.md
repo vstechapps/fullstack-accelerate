@@ -1,4 +1,4 @@
-# [Fullstack Architecture](../) > 🌐 Single Page Applications (SPAs)
+# [Fullstack](../../) > [Architecture](../) > 🌐 Single Page Applications
 
 A **Single Page Application (SPA)** is a web application or website that dynamically updates the content of a single web page, providing a seamless and fast user experience. Unlike traditional multi-page applications, SPAs load a single HTML page and dynamically update the content using JavaScript, reducing the need for full-page reloads.
 

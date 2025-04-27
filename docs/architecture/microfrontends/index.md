@@ -1,4 +1,4 @@
-# [Fullstack Architecture](../) > 🌐 Micro Frontends
+# [Fullstack](../../) > [Architecture](../) > 🌐 Micro Frontends
 
 Micro Frontends is an architectural style where a frontend app is decomposed into individual, semi-independent "micro-apps" that are owned by different teams and developed, tested, and deployed independently.
 
