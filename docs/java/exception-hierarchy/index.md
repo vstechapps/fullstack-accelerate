@@ -1,4 +1,4 @@
-# [Java](../) > Exception Hierarchy
+# [Fullstack](../../) > [Java](../) > 📊 Exception Hierarchy
 
 ## Exception Hierarchy in Java
 Java's exception handling is based on a well-defined hierarchy. At the top of this hierarchy is the `Throwable` class, which has two main subclasses:

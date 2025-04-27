@@ -1,4 +1,4 @@
-# [Java](../) > Multithreading
+# [Fullstack](../../) > [Java](../) > 🧵 Threads
 
 ## Introduction to Multithreading
 Multithreading in Java is a powerful technique that enables concurrent execution of two or more parts of a program to maximize CPU utilization. Each of these parts is called a **thread**.

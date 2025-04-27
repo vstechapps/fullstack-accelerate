@@ -1,4 +1,4 @@
-# [Fullstack](../../) > [Java](../) > 📝 Strings
+# [Fullstack](../../) > [Java](../) > Strings
 
 ## Introduction
 A **string** in Java is a sequence of characters, used to store and manipulate text. In Java, strings are objects of the `String` class, which provides various methods to work with text data.

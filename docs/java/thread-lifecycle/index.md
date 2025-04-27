@@ -1,4 +1,4 @@
-# [Java](../) > Thread Lifecycle
+# [Fullstack](../../) > [Java](../) > 🧵 Thread Lifecycle
 
 ## Introduction to Thread Lifecycle
 In Java, a thread goes through several stages during its execution. Understanding these stages is crucial for effective thread management.

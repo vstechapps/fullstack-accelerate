@@ -1,4 +1,4 @@
-# [Java](../) > Checked vs Unchecked Exceptions
+# [Fullstack](../../) > [Java](../) > ⚖️ Checked vs Unchecked Exceptions
 
 ## Difference Between Checked and Unchecked Exceptions
 In Java, exceptions are classified into two main types:
@@ -69,7 +69,7 @@ public class UncheckedExceptionExample {
 | Cause | External factors (e.g., file not found) | Programming logic errors |
 
 ## When to Use Checked vs Unchecked Exceptions?
-- **Use Checked Exceptions** when the error is beyond the programmer’s control (e.g., file not found, network failure).
+- **Use Checked Exceptions** when the error is beyond the programmer's control (e.g., file not found, network failure).
 - **Use Unchecked Exceptions** when the error is due to a programming mistake (e.g., null references, division by zero).
 
 ## Conclusion
