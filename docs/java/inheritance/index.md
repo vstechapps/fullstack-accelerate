@@ -1,4 +1,4 @@
-# [Java](../) > OOP > Inheritance in Java
+# [Fullstack](../../) > [Java](../) > 🧬 Inheritance
 
 Inheritance is one of the four fundamental Object-Oriented Programming (OOP) concepts in Java, along with Encapsulation, Abstraction, and Polymorphism. It allows a class (subclass or child class) to inherit properties and behaviors (fields and methods) from another class (superclass or parent class), promoting code reusability and hierarchical relationships.
 

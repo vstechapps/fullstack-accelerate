@@ -1,4 +1,4 @@
-# [Java](../) > Features
+# [Fullstack](../../) > [Java](../) > ✨ Features
 
 # Java Features
 

@@ -1,4 +1,4 @@
-# [Java](../) > OOP > Encapsulation 
+# [Fullstack](../../) > [Java](../) > 🛡️ Encapsulation 
 
 Encapsulation is one of the four fundamental Object-Oriented Programming (OOP) concepts in Java, alongside Abstraction, Inheritance, and Polymorphism. It is the technique of wrapping data (variables) and code (methods) together as a single unit while restricting direct access to the data from outside the class.
 

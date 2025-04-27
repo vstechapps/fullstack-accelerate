@@ -1,4 +1,4 @@
-# [Java](../) > JDK, JRE and JVM
+# [Fullstack](../../) > [Java](../) > ⚙️ JDK-JRE-JVM
 
 # Understanding JDK, JRE and JVM
 

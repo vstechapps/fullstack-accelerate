@@ -1,4 +1,4 @@
-# [Java](../) > Abstraction
+# [Fullstack](../../) > [Java](../) > 🎨 Abstraction
 
 # Understanding Abstraction in Java
 

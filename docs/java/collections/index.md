@@ -1,4 +1,4 @@
-# [Java](../) > Java Collections
+# [Fullstack](../../) > [Java](../) > 📚 Collections
 
 ## Introduction
 Java Collections Framework (JCF) provides a set of interfaces and classes to store and manipulate groups of objects efficiently. Collections help manage dynamic data structures like lists, sets, and maps.

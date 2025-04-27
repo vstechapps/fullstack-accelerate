@@ -1,4 +1,4 @@
-# [Java](../) > Data Types
+# [Fullstack](../../) > [Java](../) > 📊 Data-Types
 
 ## Introduction
 Data types in Java define the type of data a variable can store. A data type is like a container; it defines what kind of data a variable can hold. Java is a statically-typed language, meaning every variable must have a predefined type.

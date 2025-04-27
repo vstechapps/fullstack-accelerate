@@ -1,4 +1,4 @@
-# [Java](../) > Operators
+# [Fullstack](../../) > [Java](../) > 🔢 Operators
 
 ## Introduction
 Operators in Java are special symbols that perform operations on variables and values. They help manipulate data and perform calculations in a Java program.
