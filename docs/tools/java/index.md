@@ -1,4 +1,4 @@
-# [Fullstack Tools](../) > Java
+# [Fullstack](../../) > [Tools](../) > ☕ Java
 
 ## Java
 Java is a powerful, object-oriented programming language used for building cross-platform applications, including web, desktop, and mobile applications. This guide will help you install Java on your system.
