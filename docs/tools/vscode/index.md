@@ -1,3 +1,5 @@
+# [Fullstack](../../) > [Tools](../) > 💻 VS Code
+
 ## Visual Studio Code (VS Code) Installation Guide
 ### Introduction
 VS Code is a popular code editor with extensive extensions and debugging tools.

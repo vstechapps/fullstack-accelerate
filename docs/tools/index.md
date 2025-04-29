@@ -1,4 +1,4 @@
-# [Home](../) > Fullstack Tools
+# [Fullstack](../../) > Tools
 
 Below is the list of essential tools / software used for full-stack development.
 

@@ -1,4 +1,4 @@
-# [Fullstack Tools](../) > > Git Installation Guide
+# [Fullstack](../../) > [Tools](../) > 🔄 Git
 
 ## GIT
 Git is a distributed version control system widely used for source code management.

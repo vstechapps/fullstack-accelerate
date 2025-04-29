@@ -1,4 +1,4 @@
-# [Fullstack Tools](../) > Node.js Installation
+# [Fullstack](../../) > [Tools](../) > ⚡ Node.js 
 
 ## NodeJS
 Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. It allows developers to build scalable and fast web applications. This guide will help you install Node.js on your system.
@@ -105,7 +105,7 @@ You have successfully installed Node.js on your system! You can now start buildi
 
 ---
 
-[← Fullstack Tools ](../)
+[← Fullstack](../../)
 
 ---
 

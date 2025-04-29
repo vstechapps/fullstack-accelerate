@@ -1,4 +1,4 @@
-# [Fullstack Tools](../) > MySQL Installation
+# [Fullstack](../../) > [Tools](../) > 🗃️ MySQL
 
 ## MySQL
 MySQL is a widely used relational database management system (RDBMS) that helps store and manage structured data efficiently. This guide will help you install MySQL Server on your system and set up a basic database.

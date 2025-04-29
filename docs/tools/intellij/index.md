@@ -1,4 +1,4 @@
-# [Fullstack Tools](../) > IntelliJ IDEA Installation
+# [Fullstack](../../) > [Tools](../) > 🧠 IntelliJ IDEA
 
 ## IntelliJ IDEA
 IntelliJ IDEA is a powerful integrated development environment (IDE) for JVM languages like Java, Kotlin, Groovy, and Scala.
