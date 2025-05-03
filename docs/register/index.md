@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register Now - Fullstack Interest Evaluation</title>
+    <title>Register Fullstack</title>
     
     <!-- Bootstrap 5 CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -31,9 +31,9 @@
         <div class="row justify-content-center">
             <div class="col-md-7 col-lg-6">
                 <div class="card question-card p-4">
-                    <div class="text-center mb-4">
+                    <div class="text-center mb-2">
                         <span class="material-icons" style="font-size:48px;">quiz</span>
-                        <h2 class="fw-bold">Fullstack Course Interest Evaluation</h2>
+                        <h2 class="fw-bold">Interested in Fullstack?</h2>
                     </div>
                     <div id="progress-container" class="mb-4" style="display:none;">
                         <div class="progress">
