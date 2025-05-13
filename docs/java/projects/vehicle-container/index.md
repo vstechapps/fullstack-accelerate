@@ -20,5 +20,3 @@ A simple Java program to manage a collection of vehicles in a container. The sys
 - **Use MySQL Database**: Provide an option to store vehicle details in a MySQL database for structured and efficient data management.
 - **Load & Save Data**: Ensure vehicle data persists between program runs, allowing users to choose between file-based or database storage.
 
-## Conclusion
-This Java program will offer a basic way to manage a collection of vehicles while maintaining a maximum load capacity, ensuring efficient organization and storage within the container. The system provides flexibility by supporting both file-based and database storage options.

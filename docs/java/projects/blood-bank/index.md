@@ -21,6 +21,4 @@ A simple Java program to search for blood donors based on blood group. The syste
 - **Use File or Database**: Store donor information in a text file or a simple database like SQLite.
 - **Load & Save Data**: Ensure donor data persists between program runs.
 
-## Conclusion
-This Java program will provide an efficient way to search for blood donors based on blood group, making it useful for small-scale blood bank operations.
 

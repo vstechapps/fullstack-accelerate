@@ -22,7 +22,6 @@ The File Manager is a console-based application that allows users to manage file
 ## 3. Non-Functional Requirements
 - **Error Handling**:
   - Handle invalid file names and paths.
-  - Prevent accidental deletion of system-critical files.
   - Validate user input.
 - **User Interface**:
   - Simple text-based menu.
