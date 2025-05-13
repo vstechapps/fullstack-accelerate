@@ -1,6 +1,6 @@
-# [Home](../../) > Simple Calculator - App Requirements
+# [Home](../../) > Simple Calculator
 
-## 1. Introduction
+## 1. App Overview
 The Simple Calculator is a console-based application that performs basic arithmetic operations. Users can enter numbers and an operator to calculate the result.
 
 ## 2. Requirements

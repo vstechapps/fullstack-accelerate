@@ -1,6 +1,6 @@
-# [Home](../../) > Blood Bank - Requirements
+# [Home](../../) > Blood Bank App
 
-## Introduction
+## Project Overview
 A simple Java program to search for blood donors based on blood group. The system allows users to register as donors and search for available donors.
 
 ## Functional Requirements
