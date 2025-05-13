@@ -1,9 +1,9 @@
 # [Home](../../) > File Manager App
 
-## 1. App Overview
+## App Overview
 The File Manager is a console-based application that allows users to manage files and directories. Users can perform operations such as creating, deleting, renaming, and listing files and folders.
 
-## 2. Functional Requirements
+## Functional Requirements
 - **User Inputs**:
   - Command selection (create, delete, rename, list, move, copy).
   - File or directory name.
