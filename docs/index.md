@@ -1,4 +1,4 @@
-# Welcome to Fullstack Dev Accelerator &#x1F680; 
+# Hello Fullstack Developers
 
 ## Introduction
 - Fullstack Accelerator is thoughtfully designed to support individuals at all skill levels, from beginners looking to build a strong foundation to experienced professionals aiming to enhance their expertise and stay ahead in the industry.
