@@ -1,6 +1,7 @@
 {
     "questions": [
       {
+        "id": 0,
         "text": "I'm a...",
         "options": [
           { "label": "Student pursuing bachelor degree", "value": "bachelor" },
@@ -16,6 +17,7 @@
         }
       },
       {
+        "id": 1,
         "text": "Which year of your bachelor degree are you in?",
         "options": [
           { "label": "First Year", "value": "1" },
@@ -26,6 +28,7 @@
         "next": 2
       },
       {
+        "id": 2,
         "text": "Are you interested in internships or live projects?",
         "options": [
           { "label": "Internships", "value": "internship" },
@@ -34,6 +37,7 @@
         ]
       },
       {
+        "id": 3,
         "text": "Which year of your master degree are you in?",
         "options": [
           { "label": "First Year", "value": "1" },
@@ -42,6 +46,7 @@
         "next": 4
       },
       {
+        "id": 4,
         "text": "Are you planning for higher studies or job after masters?",
         "options": [
           { "label": "Higher Studies", "value": "higher" },
@@ -50,11 +55,13 @@
         ]
       },
       {
+        "id": 5,
         "text": "What is your current job role?",
         "input": "text",
         "next": 6
       },
       {
+        "id": 6,
         "text": "Are you looking to switch to an IT role?",
         "options": [
           { "label": "Yes", "value": "yes" },
@@ -64,6 +71,7 @@
         "next": 7
       },
       {
+        "id": 7,
         "text": "Which area of IT interests you the most?",
         "options": [
           { "label": "Web Development", "value": "web" },
@@ -73,6 +81,7 @@
         ]
       },
       {
+        "id": 8,
         "text": "How many years of experience do you have in IT?",
         "options": [
           { "label": "Less than 1 year", "value": "<1" },
@@ -88,6 +97,7 @@
         }
       },
       {
+        "id": 9,
         "text": "Are you looking for mentorship in IT?",
         "options": [
           { "label": "Yes", "value": "yes" },
@@ -95,6 +105,7 @@
         ]
       },
       {
+        "id": 10,
         "text": "Are you interested in leadership roles?",
         "options": [
           { "label": "Yes", "value": "yes" },
@@ -102,6 +113,7 @@
         ]
       },
       {
+        "id": 11,
         "text": "Would you like to contribute to open source projects?",
         "options": [
           { "label": "Yes", "value": "yes" },
@@ -109,6 +121,7 @@
         ]
       },
       {
+        "id": 12,
         "text": "Are you interested in advanced certifications?",
         "options": [
           { "label": "Yes", "value": "yes" },
