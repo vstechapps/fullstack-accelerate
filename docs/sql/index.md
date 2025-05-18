@@ -1,4 +1,4 @@
-# [Home](../) > SQL
+# [Fullstack](../) > 🗄️ SQL
 
 ---
 
