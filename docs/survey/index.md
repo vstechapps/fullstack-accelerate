@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -108,8 +107,8 @@
                     <form id="question-form" style="display:none;">
                         <div id="question-container"></div>
                         <button type="submit" class="btn waves-effect waves-light w-100" style="width:100%;margin-top:1.5rem;">
-                            <i class="material-icons left">navigate_next</i>
-                            Next
+                            <span>Next</span>
+                            <i class="material-icons">navigate_next</i>
                         </button>
                     </form>
                     <div id="thankyou-message" class="center-align" style="display:none;">

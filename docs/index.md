@@ -35,6 +35,6 @@ Explore AI-powered tools and utilities for enhanced development
 <div align="center">
   <h3>🎓 Start Your Journey Today! </h3>
   <p>Choose fullstack accelerator to begin your fullstack development journey</p>
-  <a href="./register/">Register Now</a>
+  <a href="./survey/">📝 Register Now</a>
 </div>
 
