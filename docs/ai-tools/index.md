@@ -25,13 +25,8 @@ The AI tools listed below can be broadly categorized into three main types:
 | CodeT5 | Code Generation | [github.com/salesforce/CodeT5](https://github.com/salesforce/CodeT5) |
 | Codex | Code Generation | [openai.com/blog/openai-codex](https://openai.com/blog/openai-codex) |
 
-## Summary
-The AI tools listed above can be broadly categorized into three main types:
-- **Code Assistants**: Tools like GitHub Copilot, CodeWhisperer, and CodeGPT that provide real-time code suggestions and completions
-- **AI-Powered IDEs**: Development environments like Cursor that integrate AI capabilities directly into the coding workflow
-- **Code Generation Tools**: Specialized tools like CodeT5 and Codex that can generate code snippets and complete implementations
 
-## Conclusion
+## Summary
 These AI tools are revolutionizing the way developers write and maintain code. By leveraging these tools, developers can:
 - Increase productivity through intelligent code completion
 - Reduce development time with automated code generation
