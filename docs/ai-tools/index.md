@@ -4,6 +4,11 @@ Below is the list of essential AI tools and utilities used for enhancing full-st
 
 Each link leads to a detailed guide for the respective AI tool.
 
+The AI tools listed below can be broadly categorized into three main types:
+- **Code Assistants**: Tools like GitHub Copilot, CodeWhisperer, and CodeGPT that provide real-time code suggestions and completions
+- **AI-Powered IDEs**: Development environments like Cursor that integrate AI capabilities directly into the coding workflow
+- **Code Generation Tools**: Specialized tools like CodeT5 and Codex that can generate code snippets and complete implementations
+
 | Tool | Category | Official Website |
 |------|----------|------------------|
 | GitHub Copilot | Code Assistant | [github.com/features/copilot](https://github.com/features/copilot) |
