@@ -1,0 +1,119 @@
+{
+    "questions": [
+      {
+        "text": "I'm a...",
+        "options": [
+          { "label": "Student pursuing bachelor degree", "value": "bachelor" },
+          { "label": "Student pursuing master degree", "value": "master" },
+          { "label": "Working Professional in Non-IT / Support", "value": "nonit" },
+          { "label": "Working Professional in IT", "value": "it" }
+        ],
+        "next": {
+          "bachelor": 1,
+          "master": 3,
+          "nonit": 5,
+          "it": 8
+        }
+      },
+      {
+        "text": "Which year of your bachelor degree are you in?",
+        "options": [
+          { "label": "First Year", "value": "1" },
+          { "label": "Second Year", "value": "2" },
+          { "label": "Third Year", "value": "3" },
+          { "label": "Final Year", "value": "4" }
+        ],
+        "next": 2
+      },
+      {
+        "text": "Are you interested in internships or live projects?",
+        "options": [
+          { "label": "Internships", "value": "internship" },
+          { "label": "Live Projects", "value": "live" },
+          { "label": "Both", "value": "both" }
+        ]
+      },
+      {
+        "text": "Which year of your master degree are you in?",
+        "options": [
+          { "label": "First Year", "value": "1" },
+          { "label": "Second Year", "value": "2" }
+        ],
+        "next": 4
+      },
+      {
+        "text": "Are you planning for higher studies or job after masters?",
+        "options": [
+          { "label": "Higher Studies", "value": "higher" },
+          { "label": "Job", "value": "job" },
+          { "label": "Not Sure", "value": "not_sure" }
+        ]
+      },
+      {
+        "text": "What is your current job role?",
+        "input": "text",
+        "next": 6
+      },
+      {
+        "text": "Are you looking to switch to an IT role?",
+        "options": [
+          { "label": "Yes", "value": "yes" },
+          { "label": "No", "value": "no" },
+          { "label": "Maybe", "value": "maybe" }
+        ],
+        "next": 7
+      },
+      {
+        "text": "Which area of IT interests you the most?",
+        "options": [
+          { "label": "Web Development", "value": "web" },
+          { "label": "Data Science", "value": "data" },
+          { "label": "Cloud/DevOps", "value": "cloud" },
+          { "label": "Other", "value": "other" }
+        ]
+      },
+      {
+        "text": "How many years of experience do you have in IT?",
+        "options": [
+          { "label": "Less than 1 year", "value": "<1" },
+          { "label": "1-3 years", "value": "1-3" },
+          { "label": "3-5 years", "value": "3-5" },
+          { "label": "More than 5 years", "value": ">5" }
+        ],
+        "next": {
+          "<1": 9,
+          "1-3": 10,
+          "3-5": 11,
+          ">5": 12
+        }
+      },
+      {
+        "text": "Are you looking for mentorship in IT?",
+        "options": [
+          { "label": "Yes", "value": "yes" },
+          { "label": "No", "value": "no" }
+        ]
+      },
+      {
+        "text": "Are you interested in leadership roles?",
+        "options": [
+          { "label": "Yes", "value": "yes" },
+          { "label": "No", "value": "no" }
+        ]
+      },
+      {
+        "text": "Would you like to contribute to open source projects?",
+        "options": [
+          { "label": "Yes", "value": "yes" },
+          { "label": "No", "value": "no" }
+        ]
+      },
+      {
+        "text": "Are you interested in advanced certifications?",
+        "options": [
+          { "label": "Yes", "value": "yes" },
+          { "label": "No", "value": "no" }
+        ]
+      }
+    ]
+  }
