@@ -19,10 +19,17 @@
 ---
 
 ## [Fullstack Tools 🛠️](./tools/)
+Essential tools and utilities for fullstack development
 
 ---
 
 ## [Fullstack Architecture 🏗️](./architecture/)
+Learn about system design and architecture patterns
+
+---
+
+## [Fullstack AI Tools 🤖](./ai-tools/)
+Explore AI-powered tools and utilities for enhanced development
 
 ---
 
