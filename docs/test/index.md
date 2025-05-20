@@ -1,0 +1,154 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fullstack Accelerator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0a2540;
+      color: #fff;
+    }
+
+    .hero-banner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 60px 80px;
+      background-color: #0a2540;
+      height: 100vh;
+      box-sizing: border-box;
+    }
+
+    .banner-content {
+      max-width: 50%;
+    }
+
+    .banner-content h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+
+    .banner-content p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      margin-bottom: 30px;
+      color: #c9d6e3;
+    }
+
+    .cta-button {
+      padding: 14px 28px;
+      font-size: 1rem;
+      color: white;
+      background-color: #007bff;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .cta-button:hover {
+      background-color: #0056b3;
+    }
+
+    .banner-image {
+      max-width: 45%;
+      text-align: right;
+    }
+
+    .banner-image img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 12px;
+    }
+
+    @media (max-width: 768px) {
+      .hero-banner {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px 20px;
+      }
+
+      .banner-content,
+      .banner-image {
+        max-width: 100%;
+      }
+
+      .banner-image {
+        margin-top: 30px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <section class="hero-banner">
+    <div class="banner-content">
+      <h1>Master Full-Stack Development</h1>
+      <p>Join our hands-on, project-based course to learn Java, Spring Boot & Angular from scratch. Designed for both students and professionals.</p>
+      <button class="cta-button">Start Learning Now</button>
+    </div>
+    <div class="banner-image">
+      <img src="your-generated-banner-image-1.png" alt="Fullstack Banner Illustration">
+    </div>
+  </section>
+
+  <section style="background-color: #f4f6f9; color: #0a2540; padding: 60px 80px;">
+  <div style="max-width: 1000px; margin: 0 auto; text-align: center;">
+    <h2 style="font-size: 2.5rem; margin-bottom: 20px;">About the Course</h2>
+    <p style="font-size: 1.1rem; line-height: 1.8; color: #333;">
+      The Fullstack Accelerator program is a complete roadmap to becoming a modern full-stack developer.
+      It covers <strong>Java</strong>, <strong>Spring Boot</strong>, <strong>Angular</strong>, and integrates
+      real-world application building at each step. Perfect for beginners and professionals aiming to upgrade.
+    </p>
+    <div style="display: flex; justify-content: center; flex-wrap: wrap; margin-top: 40px; gap: 20px;">
+      <div style="background: white; padding: 30px; border-radius: 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.1); width: 280px;">
+        <h3 style="font-size: 1.2rem; color: #007bff;">Learn by Doing</h3>
+        <p>Code alongside expert-created projects that simulate real-world systems.</p>
+      </div>
+      <div style="background: white; padding: 30px; border-radius: 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.1); width: 280px;">
+        <h3 style="font-size: 1.2rem; color: #007bff;">Career-Focused</h3>
+        <p>Develop a portfolio, ace interviews, and gain practical team-level experience.</p>
+      </div>
+      <div style="background: white; padding: 30px; border-radius: 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.1); width: 280px;">
+        <h3 style="font-size: 1.2rem; color: #007bff;">Updated Continuously</h3>
+        <p>Always aligned with latest trends, frameworks, and best practices in the industry.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<section style="background-color: #ffffff; color: #0a2540; padding: 60px 80px;">
+  <div style="max-width: 1000px; margin: 0 auto;">
+    <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 40px;">What You'll Learn</h2>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 30px;">
+      <div style="padding: 25px; border: 1px solid #e0e0e0; border-radius: 10px;">
+        <h4 style="color: #007bff; margin-bottom: 10px;">Frontend Development</h4>
+        <ul style="padding-left: 20px; color: #333;">
+          <li>HTML5, CSS3, JavaScript</li>
+          <li>TypeScript & Angular 16</li>
+          <li>Responsive Design</li>
+        </ul>
+      </div>
+      <div style="padding: 25px; border: 1px solid #e0e0e0; border-radius: 10px;">
+        <h4 style="color: #007bff; margin-bottom: 10px;">Backend Development</h4>
+        <ul style="padding-left: 20px; color: #333;">
+          <li>Java Core & Advanced</li>
+          <li>Spring Boot & REST APIs</li>
+          <li>JPA & Hibernate</li>
+        </ul>
+      </div>
+      <div style="padding: 25px; border: 1px solid #e0e0e0; border-radius: 10px;">
+        <h4 style="color: #007bff; margin-bottom: 10px;">Deployment & Tools</h4>
+        <ul style="padding-left: 20px; color: #333;">
+          <li>Git & GitHub</li>
+          <li>Hosting on Firebase</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+</body>
+</html>
