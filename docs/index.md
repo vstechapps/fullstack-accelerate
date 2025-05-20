@@ -1,4 +1,4 @@
-# 👋 Hello Fullstack Developers 
+# 👋 Hello <span class="d-none d-md-inline-block">Fullstack</span> Developers 
 ## Intro
 - **Fullstack Accelerator** is thoughtfully designed to support individuals at all skill levels, from beginners looking to build a strong foundation to experienced professionals aiming to enhance their expertise and stay ahead in the industry.
 - Fullstack Accelerator provides complete course material for mastering **fullstack development** using **Java, Spring Boot, and Angular**.
