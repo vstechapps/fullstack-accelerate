@@ -85,7 +85,11 @@
 
   <section class="hero-banner">
     <div class="banner-content">
-      <h1>Master Full-Stack Development</h1>
+      <h1 style="font-size:40px">
+      <div class="d-block d-md-inline-block">Master &nbsp;</div>
+      <div class="d-block d-md-inline-block">Full-Stack &nbsp;</div>
+      <div class="d-block d-md-inline-block">Development</div>
+      </h1>
       <p>Join our hands-on, project-based course to learn Java, Spring Boot & Angular from scratch. Designed for both students and professionals.</p>
       <button class="cta-button">Start Learning Now</button>
     </div>
