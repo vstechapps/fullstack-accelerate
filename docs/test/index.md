@@ -98,7 +98,7 @@
     </div>
   </section>
 
-  <section style="background-color: #f4f6f9; color: #0a2540;">
+  <section style="background-color: #f4f6f9; color: #0a2540; padding: 30px 10px">
   <div style="max-width: 1000px; margin: 0 auto; text-align: center;">
     <h2 style="font-size: 2.5rem; margin-bottom: 20px;">About the Course</h2>
     <p style="font-size: 1.1rem; line-height: 1.8; color: #333;">
@@ -122,7 +122,7 @@
     </div>
   </div>
 </section>
-<section style="background-color: #ffffff; color: #0a2540;>
+<section style="background-color: #ffffff; color: #0a2540; padding: 30px 10px">
   <div style="max-width: 1000px; margin: 0 auto;">
     <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 40px;">What You'll Learn</h2>
     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 30px;">
