@@ -78,6 +78,46 @@ Servers are systems that respond to client requests, manage resources, and perfo
 | **Game Servers** | Steam, Epic Games | Manage game state, logic, and multiplayer sessions. |
 | **Mail Servers** | SMTP, IMAP | Send and receive emails. |
 
+## 📊 Not Convinced? Take a Quick Survey to Know Your Interest!
+
+Take this quick survey to discover how the client-server model aligns with your interests and career goals:
+
+1. **What interests you most about web development?**
+   - [ ] Building user interfaces
+   - [ ] Working with databases
+   - [ ] Creating APIs
+   - [ ] All of the above
+
+2. **Which type of client would you like to work with?**
+   - [ ] Web browsers
+   - [ ] Mobile apps
+   - [ ] Desktop applications
+   - [ ] IoT devices
+
+3. **What type of server-side work appeals to you?**
+   - [ ] Web servers
+   - [ ] Application servers
+   - [ ] Database servers
+   - [ ] Authentication servers
+
+4. **How do you prefer to learn?**
+   - [ ] Hands-on coding
+   - [ ] Reading documentation
+   - [ ] Video tutorials
+   - [ ] Interactive exercises
+
+5. **What's your current experience level?**
+   - [ ] Complete beginner
+   - [ ] Some programming experience
+   - [ ] Experienced in other areas
+   - [ ] Professional developer
+
+Your answers will help us tailor the learning experience to your needs and interests. Remember, there's no right or wrong answer - it's all about finding the path that excites you most!
+
+---
+
+[← Fullstack Architecture](../)
+
 ---
 
 
