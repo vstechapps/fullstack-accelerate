@@ -94,7 +94,7 @@
       <button class="cta-button">Start Learning Now</button>
     </div>
     <div class="banner-image">
-      <img src="your-generated-banner-image-1.png" alt="Fullstack Banner Illustration">
+      <img src="b01.png" alt="Fullstack Banner Illustration">
     </div>
   </section>
 
