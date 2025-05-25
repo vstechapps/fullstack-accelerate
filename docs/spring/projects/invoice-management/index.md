@@ -1,4 +1,4 @@
-# [Home](../../) > Invoice Management System API - Requirements
+# [Fullstack](../../) > Invoice Management API
 
 ## 🌟 Overview
 A backend API for an Invoice Management System built using Spring Boot. The API provides endpoints for generating and managing invoices. The primary functionality is to generate PDF invoices for customers based on their orders and payment details. The system supports two roles: **ADMIN** and **CUSTOMER**, with specific permissions for each role.

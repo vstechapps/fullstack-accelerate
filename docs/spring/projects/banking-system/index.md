@@ -1,4 +1,4 @@
-# [Home](../../) > Banking System API - Requirements
+# [Fullstack](../../) > Banking System API
 
 ## 🌟 Overview
 A backend API for a banking system built using Spring Boot. The API provides endpoints for managing accounts, customers, and transactions. It is designed to handle core banking functionalities such as account creation, fund transfers, transaction history, and customer management. The system supports two roles: **ADMIN** and **CUSTOMER**, with specific permissions for each role.

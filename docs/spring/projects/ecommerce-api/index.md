@@ -1,4 +1,4 @@
-# [Home](../../) > E-commerce Backend API - Requirements
+# [Fullstack](../../) > E-commerce Backend API
 
 ## 🌟 Overview
 A backend API for an e-commerce platform built using Spring Boot. The API provides endpoints for managing products, users, orders, and payments. It is designed to handle common e-commerce functionalities such as product browsing, user authentication, order placement, and payment processing.

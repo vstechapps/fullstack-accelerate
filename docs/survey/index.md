@@ -17,7 +17,7 @@
             box-shadow: 0 4px 24px rgba(0,0,0,0.08);
             background: #fff;
             margin-top: 3rem;
-            padding: 2rem 2.5rem 2.5rem 2.5rem;
+            padding: 30px;
         }
         .question-title {
             color: #1976d2;
@@ -72,9 +72,9 @@
 </head>
 <body>
     <div class="container">
-        <div class="row">
-            <div class="col s12 m8 offset-m2">
-                <div class="question-card z-depth-2">
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-8">
+                <div class="question-card z-depth-2" style="max-width: 500px;">
                     <div class="center-align">
                         <i class="material-icons large" style="color: #1976d2;">quiz</i>
                         <h4 class="question-title">Interested in Fullstack?</h4>
