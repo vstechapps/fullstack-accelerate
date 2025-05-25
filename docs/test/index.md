@@ -107,17 +107,25 @@
       real-world application building at each step. Perfect for beginners and professionals aiming to upgrade.
     </p>
     <div style="display: flex; justify-content: center; flex-wrap: wrap; margin-top: 40px; gap: 20px;">
-      <div style="background: white; padding: 30px; border-radius: 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.1); width: 280px;">
-        <h3 style="font-size: 1.2rem; color: #007bff;">Learn by Doing</h3>
-        <p>Code alongside expert-created projects that simulate real-world systems.</p>
+    <div style="background: white; padding: 30px; border-radius: 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.1); width: 280px;">
+        <h3 style="font-size: 1.2rem; color: #007bff;">From Theory to Code</h3>
+        <p>Understand the basics, then put them into practice with hands-on projects. Start with the theory, end with real code – learning made practical.</p>
       </div>
       <div style="background: white; padding: 30px; border-radius: 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.1); width: 280px;">
-        <h3 style="font-size: 1.2rem; color: #007bff;">Career-Focused</h3>
-        <p>Develop a portfolio, ace interviews, and gain practical team-level experience.</p>
+        <h3 style="font-size: 1.2rem; color: #007bff;">Applied Learning</h3>
+        <p>Transform your understanding of fullstack concepts into practical coding skills by applying theoretical knowledge directly to real-world projects.</p>
       </div>
       <div style="background: white; padding: 30px; border-radius: 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.1); width: 280px;">
-        <h3 style="font-size: 1.2rem; color: #007bff;">Updated Continuously</h3>
-        <p>Always aligned with latest trends, frameworks, and best practices in the industry.</p>
+        <h3 style="font-size: 1.2rem; color: #007bff;">Project based practice</h3>
+        <p>Understand the logic behind the code, then bring it to life. This approach ensures you're not just memorizing concepts but applying them through meaningful.</p>
+      </div>
+      <div style="background: white; padding: 30px; border-radius: 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.1); width: 280px;">
+        <h3 style="font-size: 1.2rem; color: #007bff;">Fullstack using AI</h3>
+        <p>Learn how to leverage AI-powered tools to accelerate fullstack development tasks such as coding, testing, deployment.</p>
+      </div>
+      <div style="background: white; padding: 30px; border-radius: 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.1); width: 280px;">
+        <h3 style="font-size: 1.2rem; color: #007bff;">Up-to-Date Content</h3>
+        <p>Technology evolves rapidly, and so do we. This course is continuously updated to reflect the latest trends, tools, and best practices in fullstack development.</p>
       </div>
     </div>
   </div>
@@ -130,8 +138,10 @@
         <h4 style="color: #007bff; margin-bottom: 10px;">Frontend Development</h4>
         <ul style="padding-left: 20px; color: #333;">
           <li>HTML5, CSS3, JavaScript</li>
-          <li>TypeScript & Angular 16</li>
+          <li>JQuery & Boostrap</li>
+          <li>Angular Framework</li>
           <li>Responsive Design</li>
+          <li>Material Design</li>
         </ul>
       </div>
       <div style="padding: 25px; border: 1px solid #e0e0e0; border-radius: 10px;">
@@ -140,13 +150,15 @@
           <li>Java Core & Advanced</li>
           <li>Spring Boot & REST APIs</li>
           <li>JPA & Hibernate</li>
+          <li>Microservices</li>
         </ul>
       </div>
       <div style="padding: 25px; border: 1px solid #e0e0e0; border-radius: 10px;">
         <h4 style="color: #007bff; margin-bottom: 10px;">Deployment & Tools</h4>
         <ul style="padding-left: 20px; color: #333;">
           <li>Git & GitHub</li>
-          <li>Hosting on Firebase</li>
+          <li>Maven & Gradle</li>
+          <li>Firebase Hosting</li>
         </ul>
       </div>
     </div>
