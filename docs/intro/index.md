@@ -17,7 +17,6 @@
       align-items: center;
       padding: 60px 80px;
       background-color: #0a2540;
-      height: 100vh;
       box-sizing: border-box;
     }
 
