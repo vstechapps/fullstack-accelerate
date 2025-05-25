@@ -91,7 +91,7 @@
       <div class="d-block d-md-inline-block">Development</div>
       </h1>
       <p>Join our hands-on, project-based course to learn Java, Spring Boot & Angular from scratch. Designed for both students and professionals.</p>
-      <button class="cta-button" onclick="window.location.href='../">Start Learning Now</button>
+      <button class="cta-button" onclick="window.location.href='../'">Start Learning Now</button>
     </div>
     <div class="banner-image">
       <img src="b01.png" alt="Fullstack Banner Illustration" style="width: -webkit-fill-available !important;">
@@ -167,11 +167,11 @@
 
 <section style="background-color: #f4f6f9; color: #0a2540; padding: 40px 10px">
   <div style="max-width: 1000px; margin: 0 auto; text-align: center;">
-    <h2 style="font-size: 2.5rem; margin-bottom: 20px;">
-    <span>Not Convinced?</span> <span>Take a Quick Survey!</span>
+    <h2 style="ffont-size:40px; margin-bottom: 20px;">
+    <span>Not Convinced?</span>
     </h2>
     <p style="font-size: 1.1rem; margin-bottom: 30px;">Help us understand your interests and goals in fullstack development.</p>
-    <a href="/survey" style="display: inline-block; padding: 14px 28px; font-size: 1rem; color: white; background-color: #007bff; border: none; border-radius: 6px; cursor: pointer; text-decoration: none; transition: background-color 0.3s ease;">Take the Survey</a>
+    <a href="/survey" style="display: inline-block; padding: 14px 28px; font-size: 1rem; color: white; background-color: #007bff; border: none; border-radius: 6px; cursor: pointer; text-decoration: none; transition: background-color 0.3s ease;">Take Quick Survey</a>
   </div>
 </section>
 
