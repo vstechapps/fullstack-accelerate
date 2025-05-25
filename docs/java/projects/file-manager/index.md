@@ -1,4 +1,4 @@
-# [Home](../../) > File Manager App
+# [Fullstack](../../) > File Manager App
 
 ## App Overview
 The File Manager is a console-based application that allows users to manage files and directories. Users can perform operations such as creating, deleting, renaming, and listing files and folders.

@@ -91,7 +91,7 @@
       <div class="d-block d-md-inline-block">Development</div>
       </h1>
       <p>Join our hands-on, project-based course to learn Java, Spring Boot & Angular from scratch. Designed for both students and professionals.</p>
-      <button class="cta-button">Start Learning Now</button>
+      <button class="cta-button" onclick="window.location.href='../">Start Learning Now</button>
     </div>
     <div class="banner-image">
       <img src="b01.png" alt="Fullstack Banner Illustration" style="width: -webkit-fill-available !important;">

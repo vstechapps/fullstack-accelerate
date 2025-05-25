@@ -1,4 +1,4 @@
-# [Home](../../) > Simple Calculator
+# [Fullstack](../../) > Simple Calculator
 
 ## App Overview
 The Simple Calculator is a console-based application that performs basic arithmetic operations. Users can enter numbers and an operator to calculate the result.
