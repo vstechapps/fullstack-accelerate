@@ -150,6 +150,7 @@
           <li>Spring Boot & REST APIs</li>
           <li>JPA & Hibernate</li>
           <li>Microservices</li>
+          <li>Security Frameworks</li>
         </ul>
       </div>
       <div style="padding: 25px; border: 1px solid #e0e0e0; border-radius: 10px;">
