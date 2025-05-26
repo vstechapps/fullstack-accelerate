@@ -73,7 +73,7 @@
 <body>
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-12 col-sm-8">
+            <div class="col-12 col-sm-6">
                 <div class="question-card z-depth-2" style="max-width: 500px;">
                     <div class="center-align">
                         <i class="material-icons large" style="color: #1976d2;">quiz</i>
