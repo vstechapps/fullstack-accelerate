@@ -15,7 +15,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 60px 80px;
+      padding: 40px;
       background-color: #0a2540;
       box-sizing: border-box;
     }
@@ -66,7 +66,7 @@
       .hero-banner {
         flex-direction: column;
         text-align: center;
-        padding: 40px 20px;
+        padding: 20px;
       }
 
       .banner-content,
@@ -75,7 +75,7 @@
       }
 
       .banner-image {
-        margin-top: 10px;
+        margin-top: 30px;
       }
     }
   </style>
