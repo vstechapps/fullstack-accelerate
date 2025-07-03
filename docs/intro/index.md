@@ -128,7 +128,7 @@
       It covers <strong>Java</strong>, <strong>Spring Boot</strong>, <strong>Angular</strong>, and integrates
       real-world application building at each step. Perfect for beginners and professionals aiming to upgrade.
     </p>
-    <div style="display: flex; justify-content: center; margin: 20px 0;">
+    <div style="display: flex; justify-content: center; flex-wrap: wrap; margin-top: 40px; gap: 20px;">
       <div style="background: white; padding: 30px; border-radius: 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.1); width: 280px;">
         <h3 style="font-size: 1.2rem; color: #007bff;">From Theory to Code</h3>
         <p>Understand the basics, then put them into practice with hands-on projects. Start with the theory, end with real code – learning made practical.</p>
