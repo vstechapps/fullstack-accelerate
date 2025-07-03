@@ -203,7 +203,9 @@
     <h2 style="ffont-size:40px; margin-bottom: 20px;">
     <span>Not Convinced?</span>
     </h2>
-    <p style="font-size: 1.1rem; margin-bottom: 30px;">Help us understand your interests and goals in fullstack development.</p>
+    <p style="font-size: 1.1rem; margin: 20px 0px;">View our Fullstack Accelator course content and course syllabus using below link</p>
+    <a href="/course" style="display: inline-block; padding: 14px 28px; font-size: 1rem; ">Goto Course Content</a>
+    <p style="font-size: 1.1rem; margin: 30px 0px;">Help us understand your interests and goals in fullstack development.</p>
     <a href="/survey" style="display: inline-block; padding: 14px 28px; font-size: 1rem; color: white; background-color: #007bff; border: none; border-radius: 6px; cursor: pointer; text-decoration: none; transition: background-color 0.3s ease;">Take Quick Survey</a>
   </div>
 </section>
