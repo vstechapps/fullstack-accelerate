@@ -90,7 +90,15 @@
       <div class="d-block d-md-inline-block">Development</div>
       </h1>
       <p>Join our hands-on, project-based course to learn Java, Spring Boot & Angular from scratch. Designed for both students and professionals.</p>
-      <div style="display: flex; justify-content: left; margin: 30px 0 0 0;">
+    </div>
+    <div class="banner-image">
+      <img src="b01.png" alt="Fullstack Banner Illustration" style="width: -webkit-fill-available !important;">
+    </div>
+  </section>
+
+  <section style="text-align:center; margin-bottom: 20px">
+  <div style="display: inline-block">
+  <div style="display: flex; justify-content: left; margin: 30px 0 0 0;">
         <div style="background: #fff; color: #0a2540; padding: 28px 40px; border-radius: 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.10); font-size: 1.15rem; display: flex; flex-direction: column; align-items: center; min-width: 320px;">
           <table style="margin-bottom: 22px; font-size: 1.08rem;">
             <tr>
@@ -109,11 +117,8 @@
           <button class="cta-button" onclick="window.location.href='../register'">Register Now</button>
         </div>
       </div>
-    </div>
-    <div class="banner-image">
-      <img src="b01.png" alt="Fullstack Banner Illustration" style="width: -webkit-fill-available !important;">
-    </div>
-  </section>
+      </div>
+    </section>
 
   <section style="background-color: #f4f6f9; color: #0a2540; padding: 30px 10px">
   <div style="max-width: 1000px; margin: 0 auto; text-align: center;">
