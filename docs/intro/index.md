@@ -90,7 +90,25 @@
       <div class="d-block d-md-inline-block">Development</div>
       </h1>
       <p>Join our hands-on, project-based course to learn Java, Spring Boot & Angular from scratch. Designed for both students and professionals.</p>
-      <button class="cta-button" onclick="window.location.href='../'">Start Learning Now</button>
+      <div style="display: flex; justify-content: left; margin: 30px 0 0 0;">
+        <div style="background: #fff; color: #0a2540; padding: 28px 40px; border-radius: 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.10); font-size: 1.15rem; display: flex; flex-direction: column; align-items: center; min-width: 320px;">
+          <table style="margin-bottom: 22px; font-size: 1.08rem;">
+            <tr>
+              <td style="padding: 6px 18px 6px 0;"><span style="font-size:1.3em; vertical-align:middle;">📘</span> <b>Course:</b></td>
+              <td style="padding: 6px 0;"><span style="font-weight:600; background: #e9f2fb; color: #0a2540; padding: 3px 10px; border-radius: 6px;">Java Fullstack</span></td>
+            </tr>
+            <tr>
+              <td style="padding: 6px 18px 6px 0;"><span style="font-size:1.3em; vertical-align:middle;">🎓</span> <b>Trainer:</b></td>
+              <td style="padding: 6px 0;"><span style="font-weight:600; background: #e9f2fb; color: #0a2540; padding: 3px 10px; border-radius: 6px;">V.V.S.K Chaitanya</span></td>
+            </tr>
+            <tr>
+              <td style="padding: 6px 18px 6px 0;"><span style="font-size:1.3em; vertical-align:middle;">🕒</span> <b>Duration:</b></td>
+              <td style="padding: 6px 0;"><span style="font-weight:600; background: #e9f2fb; color: #0a2540; padding: 3px 10px; border-radius: 6px;">3 Months</span></td>
+            </tr>
+          </table>
+          <button class="cta-button" onclick="window.location.href='../register'">Register Now</button>
+        </div>
+      </div>
     </div>
     <div class="banner-image">
       <img src="b01.png" alt="Fullstack Banner Illustration" style="width: -webkit-fill-available !important;">
@@ -105,8 +123,8 @@
       It covers <strong>Java</strong>, <strong>Spring Boot</strong>, <strong>Angular</strong>, and integrates
       real-world application building at each step. Perfect for beginners and professionals aiming to upgrade.
     </p>
-    <div style="display: flex; justify-content: center; flex-wrap: wrap; margin-top: 40px; gap: 20px;">
-    <div style="background: white; padding: 30px; border-radius: 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.1); width: 280px;">
+    <div style="display: flex; justify-content: center; margin: 20px 0;">
+      <div style="background: white; padding: 30px; border-radius: 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.1); width: 280px;">
         <h3 style="font-size: 1.2rem; color: #007bff;">From Theory to Code</h3>
         <p>Understand the basics, then put them into practice with hands-on projects. Start with the theory, end with real code – learning made practical.</p>
       </div>
