@@ -65,7 +65,7 @@
             width:100%;
         }
         .short {
-            font-size: 10px;
+            font-size: 12px;
             color: #CD5C5C;
         }
     </style>
@@ -85,7 +85,7 @@
                         </div>
                         <div class="right-align grey-text" id="progress-text" style="margin-bottom: 1rem;"></div>
                     </div>
-                    <form id="user-form">
+                    <form id="user-form" style="margin-top:15px;">
                         <div class="input-field">
                             <i class="material-icons prefix">person</i>
                             <input type="text" id="userName" required>
