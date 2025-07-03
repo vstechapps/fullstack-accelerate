@@ -110,7 +110,7 @@
       <div class="d-none d-md-block">
       <div style="display: flex; justify-content: left; margin: 30px 0 0 0;">
         <div style="background: #fff; color: #0a2540; padding: 20px 10px; border-radius: 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.10); font-size: 1.15rem; display: flex; flex-direction: column; align-items: center;width:100%">
-          <table style="margin: 20px; font-size: 1.08rem;display-inline-table; max-width:50%;">
+          <table style="margin: 20px; font-size: 1.08rem;display:inline-table; max-width:50%;">
             <tr>
               <td style="padding: 6px 18px 6px 0;"><span style="font-size:1.3em; vertical-align:middle;">📘</span> <b>Course:</b></td>
               <td style="padding: 6px 0;"><span style="font-weight:600; background: #e9f2fb; color: #0a2540; padding: 3px 10px; border-radius: 6px;">Java Fullstack</span></td>
