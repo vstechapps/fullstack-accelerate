@@ -99,7 +99,7 @@
   <section style="text-align:center; margin-bottom: 20px">
   <div style="display: inline-block">
   <div style="display: flex; justify-content: left; margin: 30px 0 0 0;">
-        <div style="background: #fff; color: #0a2540; padding: 28px 40px; border-radius: 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.10); font-size: 1.15rem; display: flex; flex-direction: column; align-items: center; min-width: 320px;">
+        <div style="background: #fff; color: #0a2540; padding: 20px 10px; border-radius: 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.10); font-size: 1.15rem; display: flex; flex-direction: column; align-items: center;">
           <table style="margin-bottom: 22px; font-size: 1.08rem;">
             <tr>
               <td style="padding: 6px 18px 6px 0;"><span style="font-size:1.3em; vertical-align:middle;">📘</span> <b>Course:</b></td>
