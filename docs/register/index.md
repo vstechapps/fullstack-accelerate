@@ -8,7 +8,7 @@
     <script defer src="https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js"></script>
     <style>
         body { background-color: #f8f9fa; }
-        .container { max-width: 600px; margin-top: 50px; }
+        .container { max-width: 600px; margin-top: 50px; padding:0px; }
         .card { padding: 30px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); }
         .discount-price { font-size: 1.8rem; color: #28a745; font-weight: bold; }
         .main-content table { width:unset;}
@@ -16,7 +16,7 @@
 </head>
 <body>
     <div class="container">
-      <div class="card text-center" style="background: #fff; color: #0a2540; box-shadow: 0 2px 12px rgba(0,0,0,0.10); border-radius: 12px; font-size: 1.15rem; max-width: 600px; margin: 50px auto 0 auto; padding: 30px;">
+      <div class="card text-center" style="background: #fff; color: #0a2540; box-shadow: 0 2px 12px rgba(0,0,0,0.10); border-radius: 12px; font-size: 1.15rem; max-width: 600px; margin: 50px auto 0 auto; padding: 20px;">
       <h2>Complete Your Registration</h2>
         <table style="margin: 0 auto 18px auto; font-size: 1.08rem;">
           <tr>
