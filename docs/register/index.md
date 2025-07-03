@@ -39,8 +39,6 @@
         <div class="mb-3">
             <input type="email" id="userEmail" class="form-control mb-2" placeholder="Enter your Email ID">
             <input type="tel" id="userMobile" class="form-control mb-2" placeholder="Enter your Mobile Number">
-        </div>
-        <div class="mb-3">
             <input type="text" id="couponCode" class="form-control" placeholder="Enter Coupon Code">
             <button class="btn btn-primary mt-2" onclick="applyCoupon()">Apply Coupon</button>
         </div>
