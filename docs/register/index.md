@@ -80,6 +80,9 @@
                 alert("Invalid Coupon Code");
             }
         }
+        function isMobileDevice() {
+            return /android|iphone|ipad|ipod|opera mini|iemobile|mobile/i.test(navigator.userAgent);
+        }
         async function proceedToPayment() {
             const userEmail = document.getElementById("userEmail").value.trim();
             const userMobile = document.getElementById("userMobile").value.trim();
@@ -103,8 +106,12 @@
             }
             // Construct UPI deep link
             const upiLink = `upi://pay?pa=${paymentInfo.upiId}&pn=${encodeURIComponent(paymentInfo.payeeName)}&am=${basePrice}&cu=${paymentInfo.currency}&tn=${encodeURIComponent(description)}`;
-            // Open UPI app in new tab, keep current tab open
-            window.open(upiLink, '_blank');
+            // Only redirect if on mobile device
+            if (isMobileDevice()) {
+                window.open(upiLink, '_blank');
+            } else {
+                alert('Please open this page on your mobile device to complete the UPI payment.');
+            }
         }
     </script>
 </body>
