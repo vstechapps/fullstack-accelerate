@@ -1,4 +1,4 @@
-# [Fullstack](../) > 🗄️ SQL
+# [Fullstack](../course) > 🗄️ SQL
 
 ---
 

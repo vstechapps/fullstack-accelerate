@@ -1,4 +1,4 @@
-# [Fullstack](../) > 🌱 Spring
+# [Fullstack](../course) > 🌱 Spring
 
 ---
 

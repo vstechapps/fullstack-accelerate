@@ -10,7 +10,6 @@
       background-color: #0a2540;
       color: #fff;
     }
-
     .hero-banner {
       display: flex;
       justify-content: space-between;
@@ -19,23 +18,19 @@
       background-color: #0a2540;
       box-sizing: border-box;
     }
-
     .banner-content {
       max-width: 50%;
     }
-
     .banner-content h1 {
       font-size: 3rem;
       margin-bottom: 20px;
     }
-
     .banner-content p {
       font-size: 1.2rem;
       line-height: 1.6;
       margin-bottom: 30px;
       color: #c9d6e3;
     }
-
     .cta-button {
       padding: 14px 28px;
       font-size: 1rem;
@@ -46,34 +41,28 @@
       cursor: pointer;
       transition: background-color 0.3s ease;
     }
-
     .cta-button:hover {
       background-color: #0056b3;
     }
-
     .banner-image {
       max-width: 45%;
       text-align: right;
     }
-
     .banner-image img {
       max-width: 100%;
       height: auto;
       border-radius: 12px;
     }
-
     @media (max-width: 768px) {
       .hero-banner {
         flex-direction: column;
         text-align: center;
         padding: 20px;
       }
-
       .banner-content,
       .banner-image {
         max-width: 100%;
       }
-
       .banner-image {
         margin-top: 30px;
       }

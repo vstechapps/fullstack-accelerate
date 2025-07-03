@@ -1,4 +1,4 @@
-# [Fullstack](../../) > AI Tools 🤖
+# [Fullstack](../course) > AI Tools 🤖
 
 Below is the list of essential AI tools and utilities used for enhancing full-stack development.
 

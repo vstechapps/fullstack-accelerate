@@ -1,4 +1,4 @@
-# [Fullstack](../../) > 📚 Java
+# [Fullstack](../course) > 📚 Java
 
 ---
 
