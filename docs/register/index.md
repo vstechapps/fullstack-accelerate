@@ -32,15 +32,15 @@
             <td style="padding: 6px 0;"><span style="font-weight:600; background: #e9f2fb; color: #0a2540; padding: 3px 10px; border-radius: 6px;">3 Months</span></td>
           </tr>
           <tr>
-            <td style="padding: 6px 18px 6px 0;"><span style="font-size:1.3em; vertical-align:middle;">🕒</span> <b>Course Fee:</b></td>
+            <td style="padding: 6px 18px 6px 0;"><span style="font-size:1.3em; vertical-align:middle;">💵</span> <b>Course Fee:</b></td>
             <td style="padding: 6px 0;"><span style="font-weight:600; background: #e9f2fb; color: #0a2540; padding: 3px 10px; border-radius: 6px;">₹8999</span></td>
           </tr>
         </table>
-        <div class="mb-3">
+        <div class="my-3">
             <input type="email" id="userEmail" class="form-control mb-2" placeholder="Enter your Email ID">
             <input type="tel" id="userMobile" class="form-control mb-2" placeholder="Enter your Mobile Number">
             <input type="text" id="couponCode" class="form-control" placeholder="Enter Coupon Code">
-            <button class="btn btn-primary mt-2" onclick="applyCoupon()">Apply Coupon</button>
+            <button class="btn btn-primary mt-3" onclick="applyCoupon()">Apply Coupon</button>
         </div>
         <p id="finalPrice" class="discount-price">Course Fee: ₹8999</p>
         <button class="btn btn-success" onclick="proceedToPayment()">Proceed to Payment</button>
@@ -48,12 +48,34 @@
     </div>
     <script>
         let basePrice = 8999;
+        let paymentInfo = null;
+        let originalPrice = 8999;
+        // Fetch payment info when page loads
+        async function loadPaymentInfo() {
+            try {
+                const response = await fetch('./payment-info.json');
+                if (!response.ok) {
+                    throw new Error('Failed to fetch payment info');
+                }
+                paymentInfo = await response.json();
+            } catch (error) {
+                console.error('Error fetching payment info:', error);
+            }
+        }
+        // Load payment info when page loads
+        document.addEventListener('DOMContentLoaded', loadPaymentInfo);
         function applyCoupon() {
-            const couponCode = document.getElementById("couponCode").value;
-            if (couponCode === "DISCOUNT500") {
-                basePrice -= 500;
+            const couponCode = document.getElementById("couponCode").value.trim();
+            // Check if payment info is loaded
+            if (!paymentInfo || !paymentInfo.coupons) {
+                alert('Payment information is loading. Please try again in a moment.');
+                return;
+            }
+            const coupon = paymentInfo.coupons.find(c => c.code === couponCode);
+            if (coupon) {
+                basePrice = originalPrice - coupon.discount;
                 document.getElementById("finalPrice").innerHTML = "Course Fee: ₹" + basePrice;
-                alert("Coupon Applied! ₹500 Off");
+                alert(`Coupon Applied! ₹${coupon.discount} Off`);
             } else {
                 alert("Invalid Coupon Code");
             }
@@ -66,28 +88,23 @@
                 alert('Please provide either Email ID or Mobile Number');
                 return;
             }
-            try {
-                const response = await fetch('../payment-info.json');
-                if (!response.ok) {
-                    throw new Error('Failed to fetch payment info');
-                }
-                const paymentInfo = await response.json();   
-                // Create description with user contact details
-                let description = paymentInfo.description;
-                if (userEmail) {
-                    description += `${userEmail}`;
-                }
-                if (userMobile) {
-                    description += `${userMobile}`;
-                }
-                // Construct UPI deep link
-                const upiLink = `upi://pay?pa=${paymentInfo.upiId}&pn=${encodeURIComponent(paymentInfo.payeeName)}&am=${basePrice}&cu=${paymentInfo.currency}&tn=${encodeURIComponent(description)}`;
-                // Open UPI app in new tab, keep current tab open
-                window.open(upiLink, '_blank');
-            } catch (error) {
-                console.error('Error fetching payment info:', error);
-                alert('Unable to process payment. Please try again or contact support.');
+            // Check if payment info is loaded
+            if (!paymentInfo) {
+                alert('Payment information is loading. Please try again in a moment.');
+                return;
             }
+            // Create description with user contact details
+            let description = paymentInfo.description;
+            if (userEmail) {
+                description += `${userEmail}`;
+            }
+            if (userMobile) {
+                description += `${userMobile}`;
+            }
+            // Construct UPI deep link
+            const upiLink = `upi://pay?pa=${paymentInfo.upiId}&pn=${encodeURIComponent(paymentInfo.payeeName)}&am=${basePrice}&cu=${paymentInfo.currency}&tn=${encodeURIComponent(description)}`;
+            // Open UPI app in new tab, keep current tab open
+            window.open(upiLink, '_blank');
         }
     </script>
 </body>

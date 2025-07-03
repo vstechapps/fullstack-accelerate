@@ -2,5 +2,59 @@
   "upiId": "vvskchaitanya-6@okaxis",
   "payeeName": "vvskchaitanya",
   "currency": "INR",
-  "description": "jfs_register_"
+  "description": "jfs_register_",
+  "coupons": [
+    {
+      "code": "JAN_JFS500",
+      "discount": 500
+    },
+    {
+      "code": "FEB_JFS500",
+      "discount": 500
+    },
+    {
+      "code": "MAR_JFS500",
+      "discount": 500
+    },
+    {
+      "code": "APR_JFS500",
+      "discount": 500
+    },
+    {
+      "code": "MAY_JFS500",
+      "discount": 500
+    },
+    {
+      "code": "JUN_JFS500",
+      "discount": 500
+    },
+    {
+      "code": "JUL_JFS500",
+      "discount": 500
+    },
+    {
+      "code": "AUG_JFS500",
+      "discount": 500
+    },
+    {
+      "code": "SEP_JFS500",
+      "discount": 500
+    },
+    {
+      "code": "OCT_JFS500",
+      "discount": 500
+    },
+    {
+      "code": "NOV_JFS500",
+      "discount": 500
+    },
+    {
+      "code": "DEC_JFS500",
+      "discount": 500
+    },
+    {
+      "code": "STARPERFORMER",
+      "discount": 1000
+    }
+  ]
 } 
