@@ -19,8 +19,8 @@
 </head>
 <body>
     <div class="container">
-    <h2>Complete Your Registration</h2>
       <div class="card text-center" style="background: #fff; color: #0a2540; box-shadow: 0 2px 12px rgba(0,0,0,0.10); border-radius: 12px; font-size: 1.15rem; max-width: 600px; margin: 50px auto 0 auto; padding: 30px;">
+      <h2>Complete Your Registration</h2>
         <table style="margin: 0 auto 18px auto; font-size: 1.08rem;">
           <tr>
             <td style="padding: 6px 18px 6px 0;"><span style="font-size:1.3em; vertical-align:middle;">📘</span> <b>Course:</b></td>
@@ -36,16 +36,14 @@
           </tr>
           <tr>
             <td style="padding: 6px 18px 6px 0;"><span style="font-size:1.3em; vertical-align:middle;">🕒</span> <b>Course Fee:</b></td>
-            <td style="padding: 6px 0;"><span style="font-weight:600; background: #e9f2fb; color: #0a2540; padding: 3px 10px; border-radius: 6px;">₹9999</span></td>
+            <td style="padding: 6px 0;"><span style="font-weight:600; background: #e9f2fb; color: #0a2540; padding: 3px 10px; border-radius: 6px;">₹8999</span></td>
           </tr>
         </table>
-        <p>Original Price: <span class="old-price">₹9999</span></p>
-        <p class="discount-price">₹8999</p>
         <div class="mb-3">
             <input type="text" id="couponCode" class="form-control" placeholder="Enter Coupon Code">
             <button class="btn btn-primary mt-2" onclick="applyCoupon()">Apply Coupon</button>
         </div>
-        <p id="finalPrice" class="discount-price">Final Price: ₹8999</p>
+        <p id="finalPrice" class="discount-price">Course Fee: ₹8999</p>
         <button class="btn btn-success" onclick="proceedToPayment()">Proceed to Payment</button>
       </div>
     </div>
