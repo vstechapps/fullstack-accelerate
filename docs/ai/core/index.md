@@ -1,4 +1,4 @@
-# 🎯 [AI](../) > Core
+# [AI](../) > 🎯 Core
 
 Core AI capabilities are the fundamental building blocks of artificial intelligence that most applications rely on. These are the essential technologies that enable machines to understand, learn, and interact with the world in human-like ways.
 

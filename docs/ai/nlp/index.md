@@ -1,4 +1,4 @@
-# 💬 [AI](../) > NLP
+# [AI](../) > 💬 NLP
 
 Natural Language Processing (NLP) is a branch of artificial intelligence that enables computers to understand, interpret, and generate human language. It bridges the gap between human communication and machine understanding, making it possible for software applications to process and respond to natural language input.
 

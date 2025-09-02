@@ -1,4 +1,4 @@
-# 🚀 [AI](../) > Specialized
+# [AI](../) > 🚀 Specialized
 
 Specialized AI capabilities are advanced, domain-specific applications that build upon core AI technologies to solve complex problems in specific industries and use cases. These capabilities combine multiple core AI technologies to create sophisticated, purpose-built solutions.
 

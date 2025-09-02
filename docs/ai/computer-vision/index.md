@@ -1,4 +1,4 @@
-# 👁️ [AI](../) > Computer Vision
+# [AI](../) > 👁️ Computer Vision
 
 ## What is Computer Vision?
 

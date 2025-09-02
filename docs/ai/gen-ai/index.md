@@ -1,4 +1,4 @@
-# 🎨 [AI](../) > Generative AI
+# [AI](../) > 🎨 Generative AI
 
 Generative AI is a branch of AI that enables software applications to generate new content; often natural language dialogs, but also images, video, code, and other formats.
 
@@ -22,7 +22,7 @@ Common uses of generative AI include:
 - **🌐 Automated translation** of text between languages
 - **📚 Summarizing or explaining** complex documents
 
-## 💻 Applications in Fullstack Development
+## 💻 Applications in Development
 
 Generative AI has become an invaluable tool in modern software development:
 
@@ -34,7 +34,7 @@ Generative AI has become an invaluable tool in modern software development:
 
 ## 🚀 Getting Started with Gen AI
 
-To begin working with Generative AI in your fullstack projects:
+To begin working with Generative AI in your projects:
 
 1. **🏗️ Choose a Platform**: Consider using established platforms like OpenAI, Google AI, or open-source alternatives
 2. **🔌 Understand APIs**: Learn how to integrate AI services into your applications
@@ -44,4 +44,4 @@ To begin working with Generative AI in your fullstack projects:
 
 ## 🔮 Future of Generative AI
 
-The field of Generative AI is rapidly evolving, with new models and capabilities being developed continuously. As a fullstack developer, staying updated with these advancements can give you a competitive edge and open new possibilities for innovative applications.
+The field of Generative AI is rapidly evolving, with new models and capabilities being developed continuously. Staying updated with these advancements can give you a competitive edge and open new possibilities for innovative applications.
