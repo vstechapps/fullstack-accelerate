@@ -1,8 +1,4 @@
 # 👋 Hello <span class="d-none d-md-inline-block">Fullstack</span> Developers 
-## Intro
-- **Fullstack Accelerator** is thoughtfully designed to support individuals at all skill levels, from beginners looking to build a strong foundation to experienced professionals aiming to enhance their expertise and stay ahead in the industry.
-- Fullstack Accelerator provides complete course material for mastering **fullstack development** using **Java, Spring Boot, and Angular**.
-- Our content is continuously updated to reflect the latest industry trends, technologies, and best practices, ensuring that learners gain real-world work experience and stay competitive in the ever-evolving job market.
 
 ## Fullstack Streams
 
@@ -32,9 +28,84 @@ Explore AI-powered tools and utilities for enhanced development
 
 ---
 
+## 🚀 **[AI Learning Hub 🤖 →](../ai/)**
+**Master Artificial Intelligence for Fullstack Development**
+
+Transform your development skills with cutting-edge AI capabilities:
+- **🧠 Core AI Technologies**: Computer Vision, NLP, Speech AI, Generative AI, Machine Learning
+- **🚀 Specialized Applications**: Healthcare, Cybersecurity, Gaming, Robotics, and more
+- **💻 Practical Integration**: Learn how to integrate AI into your fullstack projects
+- **🛠️ AI Development Tools**: Discover tools that enhance your development workflow
+
+**[Start Your AI Journey →](../ai/)**
+
+---
+
 <div align="center">
   <h3>🎓 Start Your Journey Today! </h3>
   <p>Choose fullstack accelerator to begin your fullstack development journey</p>
-  <button class="cta-button" onclick="window.location.href='../register'">Register Now</button>
+  
+  <style>
+    .enhanced-cta-button {
+      display: inline-block;
+      padding: 18px 36px;
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: white;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
+      position: relative;
+      overflow: hidden;
+      margin: 20px 0;
+    }
+    
+    .enhanced-cta-button:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 15px 35px rgba(102, 126, 234, 0.4);
+      background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+    }
+    
+    .enhanced-cta-button:active {
+      transform: translateY(-1px);
+    }
+    
+    .enhanced-cta-button::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+      transition: left 0.5s;
+    }
+    
+    .enhanced-cta-button:hover::before {
+      left: 100%;
+    }
+    
+    .button-icon {
+      margin-right: 10px;
+      font-size: 1.2em;
+    }
+    
+    .button-text {
+      vertical-align: middle;
+    }
+  </style>
+  
+  <button class="enhanced-cta-button" onclick="window.location.href='../register'">
+    <span class="button-icon">🚀</span>
+    <span class="button-text">Register Now</span>
+  </button>
+  
+  <p style="margin-top: 15px; color: #666; font-size: 0.9rem;">
+    ⚡ Limited Time Offer • 🎯 Expert-Led Training • 💼 Career Ready Skills
+  </p>
 </div>
 
